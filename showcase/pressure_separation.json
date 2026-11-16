@@ -1,0 +1,485 @@
+{
+  "threshold": {
+    "high_pct": 20,
+    "normalise_by": "innings",
+    "pressure_index_cutoff": 1.2749,
+    "knockout_multiplier": 1.15
+  },
+  "scope": "full-length matches (reduced-overs matches excluded)",
+  "leverage": {
+    "high": {
+      "balls": 39269,
+      "share_pct": 19.54,
+      "dot_pct": 33.35,
+      "boundary_pct": 19.88,
+      "wicket_rate_pct": 6.64,
+      "run_rate": 9.32,
+      "mean_abs_wpa": 0.0277,
+      "mean_pressure_index": 2.032
+    },
+    "other": {
+      "balls": 157259,
+      "share_pct": 78.25,
+      "dot_pct": 35.86,
+      "boundary_pct": 18.31,
+      "wicket_rate_pct": 5.32,
+      "run_rate": 8.73,
+      "mean_abs_wpa": 0.0086,
+      "mean_pressure_index": 0.747
+    }
+  },
+  "situation_profile": {
+    "high": {
+      "wp_within_0_25_0_75_pct": 84.3,
+      "mean_wickets_before": 2.92,
+      "death_overs_pct": 32.0,
+      "innings2_pct": 66.6,
+      "median_rrr_minus_crr_inn2": 1.53,
+      "knockout_pct": 6.68
+    },
+    "other": {
+      "wp_within_0_25_0_75_pct": 49.1,
+      "mean_wickets_before": 2.63,
+      "death_overs_pct": 20.0,
+      "innings2_pct": 42.8,
+      "median_rrr_minus_crr_inn2": 1.73,
+      "knockout_pct": 2.85
+    }
+  },
+  "bands": {
+    "low": {
+      "balls": 98049,
+      "share_pct": 48.79,
+      "dot_pct": 36.08,
+      "boundary_pct": 17.79,
+      "wicket_rate_pct": 5.52,
+      "run_rate": 8.63,
+      "mean_abs_wpa": 0.0065,
+      "mean_pressure_index": 0.532
+    },
+    "medium": {
+      "balls": 59210,
+      "share_pct": 29.46,
+      "dot_pct": 35.51,
+      "boundary_pct": 19.17,
+      "wicket_rate_pct": 4.99,
+      "run_rate": 8.89,
+      "mean_abs_wpa": 0.0123,
+      "mean_pressure_index": 1.101
+    },
+    "high": {
+      "balls": 39269,
+      "share_pct": 19.54,
+      "dot_pct": 33.35,
+      "boundary_pct": 19.88,
+      "wicket_rate_pct": 6.64,
+      "run_rate": 9.32,
+      "mean_abs_wpa": 0.0277,
+      "mean_pressure_index": 2.032
+    }
+  },
+  "rule_based": {
+    "pressure": {
+      "balls": 40391,
+      "share_pct": 20.1,
+      "dot_pct": 34.85,
+      "boundary_pct": 16.8,
+      "wicket_rate_pct": 7.13,
+      "run_rate": 8.63,
+      "mean_abs_wpa": 0.0167,
+      "mean_pressure_index": 1.188
+    },
+    "other": {
+      "balls": 156137,
+      "share_pct": 77.7,
+      "dot_pct": 35.5,
+      "boundary_pct": 19.09,
+      "wicket_rate_pct": 5.19,
+      "run_rate": 8.9,
+      "mean_abs_wpa": 0.0113,
+      "mean_pressure_index": 0.956
+    }
+  },
+  "by_innings": {
+    "innings_1": {
+      "high": {
+        "balls": 13123,
+        "share_pct": 6.53,
+        "dot_pct": 32.97,
+        "boundary_pct": 23.06,
+        "wicket_rate_pct": 7.57,
+        "run_rate": 10.12,
+        "mean_abs_wpa": 0.0191,
+        "mean_pressure_index": 1.809
+      },
+      "other": {
+        "balls": 89946,
+        "share_pct": 44.76,
+        "dot_pct": 34.87,
+        "boundary_pct": 18.0,
+        "wicket_rate_pct": 5.2,
+        "run_rate": 8.75,
+        "mean_abs_wpa": 0.0091,
+        "mean_pressure_index": 0.889
+      }
+    },
+    "innings_2": {
+      "high": {
+        "balls": 26146,
+        "share_pct": 13.01,
+        "dot_pct": 33.55,
+        "boundary_pct": 18.28,
+        "wicket_rate_pct": 6.17,
+        "run_rate": 8.93,
+        "mean_abs_wpa": 0.0319,
+        "mean_pressure_index": 2.144
+      },
+      "other": {
+        "balls": 67313,
+        "share_pct": 33.5,
+        "dot_pct": 37.19,
+        "boundary_pct": 18.72,
+        "wicket_rate_pct": 5.49,
+        "run_rate": 8.69,
+        "mean_abs_wpa": 0.0081,
+        "mean_pressure_index": 0.556
+      }
+    }
+  },
+  "by_competition": {
+    "EMERGING": {
+      "high_share_pct": 20.54
+    },
+    "IPL": {
+      "high_share_pct": 21.17
+    },
+    "T20I": {
+      "high_share_pct": 18.13
+    }
+  },
+  "by_phase": {
+    "PP": {
+      "high_share_pct": 20.44,
+      "mean_pressure_index": 0.981
+    },
+    "MID": {
+      "high_share_pct": 14.74,
+      "mean_pressure_index": 0.847
+    },
+    "DEATH": {
+      "high_share_pct": 28.24,
+      "mean_pressure_index": 1.371
+    }
+  },
+  "agreement": {
+    "leverage_share_pct": 19.98,
+    "rule_share_pct": 20.55,
+    "overlap_jaccard_pct": 17.13,
+    "rule_balls_also_leverage_high_pct": 28.84,
+    "leverage_high_also_rule_pct": 29.66,
+    "agreement_pct": 71.32,
+    "cohen_kappa": 0.113
+  },
+  "rank_correlation_of_ratings": {
+    "leverage_vs_rule_spearman": {
+      "batter": 0.881,
+      "bowler": 0.875
+    }
+  },
+  "outcome_probabilities": [
+    {
+      "innings": 1,
+      "phase": "DEATH",
+      "wb": "0-2",
+      "dot": 0.1721,
+      "1": 0.3983,
+      "2": 0.0931,
+      "4": 0.1422,
+      "6": 0.1167,
+      "wicket": 0.0776
+    },
+    {
+      "innings": 1,
+      "phase": "DEATH",
+      "wb": "3-5",
+      "dot": 0.2016,
+      "1": 0.392,
+      "2": 0.095,
+      "4": 0.13,
+      "6": 0.1065,
+      "wicket": 0.0749
+    },
+    {
+      "innings": 1,
+      "phase": "DEATH",
+      "wb": "6+",
+      "dot": 0.2815,
+      "1": 0.3388,
+      "2": 0.0965,
+      "4": 0.1033,
+      "6": 0.0775,
+      "wicket": 0.1024
+    },
+    {
+      "innings": 1,
+      "phase": "MID",
+      "wb": "0-2",
+      "dot": 0.2357,
+      "1": 0.4692,
+      "2": 0.0723,
+      "4": 0.1011,
+      "6": 0.0741,
+      "wicket": 0.0476
+    },
+    {
+      "innings": 1,
+      "phase": "MID",
+      "wb": "3-5",
+      "dot": 0.3026,
+      "1": 0.4509,
+      "2": 0.0691,
+      "4": 0.0826,
+      "6": 0.0502,
+      "wicket": 0.0446
+    },
+    {
+      "innings": 1,
+      "phase": "MID",
+      "wb": "6+",
+      "dot": 0.4297,
+      "1": 0.3578,
+      "2": 0.0543,
+      "4": 0.0638,
+      "6": 0.0339,
+      "wicket": 0.0606
+    },
+    {
+      "innings": 1,
+      "phase": "PP",
+      "wb": "0-2",
+      "dot": 0.4199,
+      "1": 0.2634,
+      "2": 0.0539,
+      "4": 0.1632,
+      "6": 0.0544,
+      "wicket": 0.0454
+    },
+    {
+      "innings": 1,
+      "phase": "PP",
+      "wb": "3-5",
+      "dot": 0.4821,
+      "1": 0.2634,
+      "2": 0.0624,
+      "4": 0.1193,
+      "6": 0.0381,
+      "wicket": 0.0348
+    },
+    {
+      "innings": 1,
+      "phase": "PP",
+      "wb": "6+",
+      "dot": 0.6923,
+      "1": 0.2308,
+      "2": 0.0769,
+      "4": 0.0,
+      "6": 0.0,
+      "wicket": 0.0
+    },
+    {
+      "innings": 2,
+      "phase": "DEATH",
+      "wb": "0-2",
+      "dot": 0.202,
+      "1": 0.4004,
+      "2": 0.0913,
+      "4": 0.1366,
+      "6": 0.1028,
+      "wicket": 0.0669
+    },
+    {
+      "innings": 2,
+      "phase": "DEATH",
+      "wb": "3-5",
+      "dot": 0.2169,
+      "1": 0.4054,
+      "2": 0.0855,
+      "4": 0.123,
+      "6": 0.0942,
+      "wicket": 0.075
+    },
+    {
+      "innings": 2,
+      "phase": "DEATH",
+      "wb": "6+",
+      "dot": 0.3073,
+      "1": 0.3318,
+      "2": 0.0722,
+      "4": 0.1088,
+      "6": 0.0768,
+      "wicket": 0.1031
+    },
+    {
+      "innings": 2,
+      "phase": "MID",
+      "wb": "0-2",
+      "dot": 0.254,
+      "1": 0.4615,
+      "2": 0.069,
+      "4": 0.1026,
+      "6": 0.0653,
+      "wicket": 0.0475
+    },
+    {
+      "innings": 2,
+      "phase": "MID",
+      "wb": "3-5",
+      "dot": 0.2875,
+      "1": 0.4439,
+      "2": 0.0704,
+      "4": 0.0907,
+      "6": 0.0565,
+      "wicket": 0.0509
+    },
+    {
+      "innings": 2,
+      "phase": "MID",
+      "wb": "6+",
+      "dot": 0.3766,
+      "1": 0.3612,
+      "2": 0.055,
+      "4": 0.0755,
+      "6": 0.0595,
+      "wicket": 0.0721
+    },
+    {
+      "innings": 2,
+      "phase": "PP",
+      "wb": "0-2",
+      "dot": 0.4145,
+      "1": 0.2596,
+      "2": 0.0517,
+      "4": 0.1649,
+      "6": 0.0602,
+      "wicket": 0.0491
+    },
+    {
+      "innings": 2,
+      "phase": "PP",
+      "wb": "3-5",
+      "dot": 0.4629,
+      "1": 0.278,
+      "2": 0.0434,
+      "4": 0.1361,
+      "6": 0.0402,
+      "wicket": 0.0393
+    },
+    {
+      "innings": 2,
+      "phase": "PP",
+      "wb": "6+",
+      "dot": 0.25,
+      "1": 0.375,
+      "2": 0.0625,
+      "4": 0.125,
+      "6": 0.125,
+      "wicket": 0.0625
+    }
+  ],
+  "examples": [
+    {
+      "match_id": 48027,
+      "competition": "Asia Cup Rising Stars 2025",
+      "knock_out": true,
+      "mean_pressure_index": 2.089,
+      "peak": {
+        "innings": 2,
+        "over": "19.5",
+        "pressure_index": 29.7,
+        "striker": "Ashutosh Sharma",
+        "bowler": "Rakibul Hasan"
+      },
+      "biggest_swing": {
+        "innings": 2,
+        "over": "19.5",
+        "wpa": -0.542,
+        "striker": "Ashutosh Sharma",
+        "bowler": "Rakibul Hasan"
+      }
+    },
+    {
+      "match_id": 28957,
+      "competition": "Zimbabwe in Sri Lanka T20I Series 2024",
+      "knock_out": false,
+      "mean_pressure_index": 2.068,
+      "peak": {
+        "innings": 2,
+        "over": "19.6",
+        "pressure_index": 22.78,
+        "striker": "Dushmantha Chameera",
+        "bowler": "Blessing Muzarabani"
+      },
+      "biggest_swing": {
+        "innings": 2,
+        "over": "19.6",
+        "wpa": 0.588,
+        "striker": "Dushmantha Chameera",
+        "bowler": "Blessing Muzarabani"
+      }
+    },
+    {
+      "match_id": 50375,
+      "competition": "IPL 2026",
+      "knock_out": false,
+      "mean_pressure_index": 2.03,
+      "peak": {
+        "innings": 2,
+        "over": "19.9",
+        "pressure_index": 26.57,
+        "striker": "Bhuvneshwar Kumar",
+        "bowler": "Raj Bawa"
+      },
+      "biggest_swing": {
+        "innings": 2,
+        "over": "19.10",
+        "wpa": 0.731,
+        "striker": "Rasikh Salam",
+        "bowler": "Raj Bawa"
+      }
+    },
+    {
+      "match_id": 48026,
+      "competition": "Asia Cup Rising Stars 2025",
+      "knock_out": false,
+      "mean_pressure_index": 1.932,
+      "peak": {
+        "innings": 2,
+        "over": "19.4",
+        "pressure_index": 15.15,
+        "striker": "Yasir Ali Chowdhury",
+        "bowler": "Milan Rathnayake"
+      },
+      "biggest_swing": {
+        "innings": 2,
+        "over": "15.4",
+        "wpa": -0.201,
+        "striker": "Mohammad Akbar Ali",
+        "bowler": "Dunith Wellalage"
+      }
+    }
+  ],
+  "leverage_distribution": {
+    "percentiles": {
+      "10": 0.00269,
+      "25": 0.00728,
+      "50": 0.01072,
+      "75": 0.01454,
+      "80": 0.01635,
+      "90": 0.02139,
+      "95": 0.02734,
+      "99": 0.06691
+    },
+    "mean": 0.01288
+  },
+  "schema_version": "2.0.0"
+}

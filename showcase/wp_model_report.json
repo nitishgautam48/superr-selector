@@ -1,0 +1,243 @@
+{
+  "innings_1": {
+    "rows": 102994,
+    "matches": 819,
+    "candidates": {
+      "logistic_splines": {
+        "log_loss": 0.625,
+        "brier": 0.217
+      },
+      "hist_gradient_boosting": {
+        "log_loss": 0.6686,
+        "brier": 0.2242
+      }
+    },
+    "chosen": "logistic_splines",
+    "calibration": {
+      "chosen": "none",
+      "candidates": {
+        "none": {
+          "log_loss": 0.625,
+          "brier": 0.217
+        },
+        "isotonic": {
+          "log_loss": 0.6361,
+          "brier": 0.221
+        },
+        "sigmoid": {
+          "log_loss": 0.6322,
+          "brier": 0.2206
+        }
+      },
+      "configured": "isotonic"
+    },
+    "cv_raw": {
+      "log_loss": 0.625,
+      "brier": 0.217
+    },
+    "cv_calibrated": {
+      "log_loss": 0.625,
+      "brier": 0.217
+    },
+    "calibration_bins": [
+      {
+        "bin": 0,
+        "p_mean": 0.0423,
+        "observed": 0.1014,
+        "n": 2464
+      },
+      {
+        "bin": 1,
+        "p_mean": 0.1564,
+        "observed": 0.1675,
+        "n": 4981
+      },
+      {
+        "bin": 2,
+        "p_mean": 0.2527,
+        "observed": 0.2435,
+        "n": 9308
+      },
+      {
+        "bin": 3,
+        "p_mean": 0.3524,
+        "observed": 0.3686,
+        "n": 14446
+      },
+      {
+        "bin": 4,
+        "p_mean": 0.4504,
+        "observed": 0.4594,
+        "n": 20930
+      },
+      {
+        "bin": 5,
+        "p_mean": 0.5485,
+        "observed": 0.5681,
+        "n": 21240
+      },
+      {
+        "bin": 6,
+        "p_mean": 0.6466,
+        "observed": 0.6404,
+        "n": 13157
+      },
+      {
+        "bin": 7,
+        "p_mean": 0.7459,
+        "observed": 0.7216,
+        "n": 8168
+      },
+      {
+        "bin": 8,
+        "p_mean": 0.8461,
+        "observed": 0.8024,
+        "n": 6093
+      },
+      {
+        "bin": 9,
+        "p_mean": 0.9429,
+        "observed": 0.8324,
+        "n": 2207
+      }
+    ],
+    "base_rate": 0.4997,
+    "folds_disjoint_by_match": true,
+    "time_split": {
+      "train_seasons": "<= 2024",
+      "test_seasons": ">= 2025",
+      "train_rows": 61631,
+      "test_rows": 41363,
+      "log_loss": 0.6435,
+      "brier": 0.2225,
+      "test_base_rate_brier": 0.2518
+    },
+    "no_skill_brier": 0.25
+  },
+  "innings_2": {
+    "rows": 94512,
+    "matches": 819,
+    "candidates": {
+      "logistic_splines": {
+        "log_loss": 0.3926,
+        "brier": 0.1271
+      },
+      "hist_gradient_boosting": {
+        "log_loss": 0.4364,
+        "brier": 0.1371
+      }
+    },
+    "chosen": "logistic_splines",
+    "calibration": {
+      "chosen": "none",
+      "candidates": {
+        "none": {
+          "log_loss": 0.3926,
+          "brier": 0.1271
+        },
+        "isotonic": {
+          "log_loss": 0.3964,
+          "brier": 0.128
+        },
+        "sigmoid": {
+          "log_loss": 0.3936,
+          "brier": 0.1274
+        }
+      },
+      "configured": "isotonic"
+    },
+    "cv_raw": {
+      "log_loss": 0.3926,
+      "brier": 0.1271
+    },
+    "cv_calibrated": {
+      "log_loss": 0.3926,
+      "brier": 0.1271
+    },
+    "calibration_bins": [
+      {
+        "bin": 0,
+        "p_mean": 0.0316,
+        "observed": 0.0376,
+        "n": 20760
+      },
+      {
+        "bin": 1,
+        "p_mean": 0.1476,
+        "observed": 0.1656,
+        "n": 8915
+      },
+      {
+        "bin": 2,
+        "p_mean": 0.2484,
+        "observed": 0.253,
+        "n": 7362
+      },
+      {
+        "bin": 3,
+        "p_mean": 0.3504,
+        "observed": 0.3447,
+        "n": 6804
+      },
+      {
+        "bin": 4,
+        "p_mean": 0.4501,
+        "observed": 0.4412,
+        "n": 5922
+      },
+      {
+        "bin": 5,
+        "p_mean": 0.5495,
+        "observed": 0.5362,
+        "n": 5686
+      },
+      {
+        "bin": 6,
+        "p_mean": 0.65,
+        "observed": 0.6329,
+        "n": 5947
+      },
+      {
+        "bin": 7,
+        "p_mean": 0.751,
+        "observed": 0.761,
+        "n": 6513
+      },
+      {
+        "bin": 8,
+        "p_mean": 0.8523,
+        "observed": 0.843,
+        "n": 8276
+      },
+      {
+        "bin": 9,
+        "p_mean": 0.9647,
+        "observed": 0.962,
+        "n": 18327
+      }
+    ],
+    "base_rate": 0.4807,
+    "folds_disjoint_by_match": true,
+    "time_split": {
+      "train_seasons": "<= 2024",
+      "test_seasons": ">= 2025",
+      "train_rows": 57054,
+      "test_rows": 37458,
+      "log_loss": 0.3848,
+      "brier": 0.125,
+      "test_base_rate_brier": 0.2524
+    },
+    "no_skill_brier": 0.2496
+  },
+  "summary": {
+    "brier_innings_1": 0.217,
+    "brier_innings_2": 0.1271,
+    "brier_weighted": 0.174,
+    "validation": "GroupKFold by match_id (no match in two folds) + time split <= 2024 / >= 2025",
+    "terminal_balls_take_actual_result": true,
+    "large_terminal_swings": 21,
+    "reduced_overs_matches_excluded_from_training": 34,
+    "note": "Scores and targets are reconstructed (about +/-3 runs), so WP inherits that uncertainty."
+  },
+  "schema_version": "2.0.0"
+}

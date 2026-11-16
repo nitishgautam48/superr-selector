@@ -1,0 +1,8 @@
+# 2027 availability. Player-level research is empty in the public build; the nationality rule (IPL eligibility)
+# is kept so an uploaded pack reproduces the published lists.
+exclude_nationalities:
+- country: Pakistan
+  reason: Pakistan nationals have not been picked at an IPL auction since 2009 (de facto ban); no Pakistan player is in any IPL 2022-26 squad in the data
+  source: IPL auction history 2009-2026; competition_team_player_mapping.csv
+exclude: []
+include: []

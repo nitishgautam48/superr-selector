@@ -1,0 +1,85 @@
+{
+  "source": "real",
+  "run_at": "2026-11-15T17:03:36",
+  "config_hash": "c95016f1d30c",
+  "row_counts": {
+    "balls": 200999,
+    "matches": 883,
+    "comps": 141,
+    "tiers": 353,
+    "totals": 1712,
+    "validation": 867,
+    "state": 200961,
+    "batters": 881,
+    "bowlers": 640,
+    "player_match": 10801,
+    "splits": 14375,
+    "directory": 1217
+  },
+  "metrics": {
+    "winner_accuracy_pct": 99.76,
+    "runs_margin_mae": 0.37,
+    "wp_brier": 0.174,
+    "pressure_share_pct": 19.54,
+    "rule_share_pct": 20.1,
+    "agreement_kappa": 0.113,
+    "eligible_batters": 105,
+    "eligible_bowlers": 100,
+    "top10_labels": {
+      "batter": {
+        "Likely": 8,
+        "Robust": 2
+      },
+      "bowler": {
+        "Likely": 5,
+        "Sensitive": 3,
+        "Robust": 2
+      }
+    },
+    "persistence_A_r": {
+      "batter": 0.294,
+      "bowler": 0.174
+    },
+    "persistence_B_r": {
+      "batter": -0.069,
+      "bowler": 0.06
+    },
+    "leverage_vs_rule_rank_rho": {
+      "batter": 0.881,
+      "bowler": 0.875
+    },
+    "refused_overrides": 0,
+    "target_pool": {
+      "batter": 25,
+      "bowler": 34
+    },
+    "rr_needs": {
+      "batting": {
+        "PP": 0.0,
+        "MID": 0.667,
+        "DEATH": 0.889
+      },
+      "bowling": {
+        "PP": 0.778,
+        "MID": 0.111,
+        "DEATH": 0.444
+      }
+    },
+    "availability_errors": 0
+  },
+  "timings_s": {
+    "data": 1.17,
+    "pressure": 49.88,
+    "rating": 21.0,
+    "reliability": 22.89,
+    "rr_target": 0.87
+  },
+  "steps": [
+    "data",
+    "pressure",
+    "rating",
+    "reliability",
+    "rr_target"
+  ],
+  "schema_version": "2.0.0"
+}

@@ -1,0 +1,312 @@
+{
+ "V0 current (WPA 0.5, no new context)": {
+  "batter": {
+   "top10": [
+    "Tim Seifert",
+    "Prabhsimran Singh",
+    "Vaibhav Sooryavanshi",
+    "Heinrich Klaasen",
+    "Travis Head",
+    "Glenn Maxwell",
+    "Kusal Mendis",
+    "Jos Buttler",
+    "Abhishek Sharma",
+    "Priyansh Arya"
+   ],
+   "ids": [
+    3700,
+    7216,
+    50284,
+    4260,
+    2367,
+    838,
+    3672,
+    813,
+    6281,
+    25669
+   ],
+   "persist_seasons_A": 0.036,
+   "persist_seasons_prs": -0.031,
+   "persist_oddeven_A": 0.176,
+   "persist_oddeven_prs": 0.109
+  },
+  "bowler": {
+   "top10": [
+    "Mohammad Nawaz",
+    "Krunal Pandya",
+    "Sikandar Raza",
+    "Sunil Narine",
+    "Josh Hazlewood",
+    "Maheesh Theekshana",
+    "Rashid Khan",
+    "Yuzvendra Chahal",
+    "Mark Adair",
+    "Mujeeb Ur Rahman"
+   ],
+   "ids": [
+    2490,
+    4219,
+    2984,
+    781,
+    830,
+    19316,
+    4722,
+    1612,
+    5379,
+    6450
+   ],
+   "persist_seasons_A": 0.076,
+   "persist_seasons_prs": 0.063,
+   "persist_oddeven_A": 0.004,
+   "persist_oddeven_prs": -0.074
+  }
+ },
+ "V1 WPA 0.25": {
+  "batter": {
+   "top10": [
+    "Tim Seifert",
+    "Prabhsimran Singh",
+    "Vaibhav Sooryavanshi",
+    "Heinrich Klaasen",
+    "Josh Inglis",
+    "Travis Head",
+    "Yashasvi Jaiswal",
+    "Abhishek Sharma",
+    "Daryl Mitchell",
+    "Kusal Mendis"
+   ],
+   "ids": [
+    3700,
+    7216,
+    50284,
+    4260,
+    4736,
+    2367,
+    6819,
+    6281,
+    4106,
+    3672
+   ],
+   "persist_seasons_A": 0.125,
+   "persist_seasons_prs": 0.057,
+   "persist_oddeven_A": 0.264,
+   "persist_oddeven_prs": 0.158
+  },
+  "bowler": {
+   "top10": [
+    "Mohammad Nawaz",
+    "Krunal Pandya",
+    "Matheesha Pathirana",
+    "Sunil Narine",
+    "Maheesh Theekshana",
+    "Rashid Khan",
+    "Sikandar Raza",
+    "Yuzvendra Chahal",
+    "Adil Rashid",
+    "Mark Adair"
+   ],
+   "ids": [
+    2490,
+    4219,
+    8661,
+    781,
+    19316,
+    4722,
+    2984,
+    1612,
+    479,
+    5379
+   ],
+   "persist_seasons_A": 0.099,
+   "persist_seasons_prs": 0.059,
+   "persist_oddeven_A": 0.036,
+   "persist_oddeven_prs": -0.027
+  }
+ },
+ "V2 WPA 0.25 + era": {
+  "batter": {
+   "top10": [
+    "Tim Seifert",
+    "Prabhsimran Singh",
+    "Heinrich Klaasen",
+    "Yashasvi Jaiswal",
+    "Josh Inglis",
+    "Vaibhav Sooryavanshi",
+    "Daryl Mitchell",
+    "Abhishek Sharma",
+    "Rohit Sharma",
+    "Travis Head"
+   ],
+   "ids": [
+    3700,
+    7216,
+    4260,
+    6819,
+    4736,
+    50284,
+    4106,
+    6281,
+    126,
+    2367
+   ],
+   "persist_seasons_A": 0.234,
+   "persist_seasons_prs": 0.136,
+   "persist_oddeven_A": 0.226,
+   "persist_oddeven_prs": 0.125
+  },
+  "bowler": {
+   "top10": [
+    "Sunil Narine",
+    "Krunal Pandya",
+    "Mohammad Nawaz",
+    "Maheesh Theekshana",
+    "Sikandar Raza",
+    "Matheesha Pathirana",
+    "Rashid Khan",
+    "Yuzvendra Chahal",
+    "Adil Rashid",
+    "Mark Adair"
+   ],
+   "ids": [
+    781,
+    4219,
+    2490,
+    19316,
+    2984,
+    8661,
+    4722,
+    1612,
+    479,
+    5379
+   ],
+   "persist_seasons_A": 0.145,
+   "persist_seasons_prs": 0.092,
+   "persist_oddeven_A": 0.071,
+   "persist_oddeven_prs": -0.003
+  }
+ },
+ "V3 WPA 0.25 + era + bowler type": {
+  "batter": {
+   "top10": [
+    "Tim Seifert",
+    "Prabhsimran Singh",
+    "Heinrich Klaasen",
+    "Yashasvi Jaiswal",
+    "Vaibhav Sooryavanshi",
+    "Daryl Mitchell",
+    "Josh Inglis",
+    "Abhishek Sharma",
+    "Travis Head",
+    "Kusal Mendis"
+   ],
+   "ids": [
+    3700,
+    7216,
+    4260,
+    6819,
+    50284,
+    4106,
+    4736,
+    6281,
+    2367,
+    3672
+   ],
+   "persist_seasons_A": 0.225,
+   "persist_seasons_prs": 0.121,
+   "persist_oddeven_A": 0.217,
+   "persist_oddeven_prs": 0.126
+  },
+  "bowler": {
+   "top10": [
+    "Krunal Pandya",
+    "Sunil Narine",
+    "Mohammad Nawaz",
+    "Maheesh Theekshana",
+    "Rashid Khan",
+    "Sikandar Raza",
+    "Matheesha Pathirana",
+    "Yuzvendra Chahal",
+    "Adil Rashid",
+    "Gudakesh Motie"
+   ],
+   "ids": [
+    4219,
+    781,
+    2490,
+    19316,
+    4722,
+    2984,
+    8661,
+    1612,
+    479,
+    3276
+   ],
+   "persist_seasons_A": 0.158,
+   "persist_seasons_prs": 0.116,
+   "persist_oddeven_A": 0.089,
+   "persist_oddeven_prs": 0.022
+  }
+ },
+ "V4 WPA 0.25 + all three": {
+  "batter": {
+   "top10": [
+    "Tim Seifert",
+    "Prabhsimran Singh",
+    "Heinrich Klaasen",
+    "Vaibhav Sooryavanshi",
+    "Josh Inglis",
+    "Yashasvi Jaiswal",
+    "Daryl Mitchell",
+    "Kusal Mendis",
+    "Abhishek Sharma",
+    "Travis Head"
+   ],
+   "ids": [
+    3700,
+    7216,
+    4260,
+    50284,
+    4736,
+    6819,
+    4106,
+    3672,
+    6281,
+    2367
+   ],
+   "persist_seasons_A": 0.22,
+   "persist_seasons_prs": 0.109,
+   "persist_oddeven_A": 0.213,
+   "persist_oddeven_prs": 0.127
+  },
+  "bowler": {
+   "top10": [
+    "Krunal Pandya",
+    "Mohammad Nawaz",
+    "Sunil Narine",
+    "Maheesh Theekshana",
+    "Sikandar Raza",
+    "Rashid Khan",
+    "Matheesha Pathirana",
+    "Yuzvendra Chahal",
+    "Gudakesh Motie",
+    "Josh Hazlewood"
+   ],
+   "ids": [
+    4219,
+    2490,
+    781,
+    19316,
+    2984,
+    4722,
+    8661,
+    1612,
+    3276,
+    830
+   ],
+   "persist_seasons_A": 0.147,
+   "persist_seasons_prs": 0.098,
+   "persist_oddeven_A": 0.087,
+   "persist_oddeven_prs": 0.011
+  }
+ }
+}

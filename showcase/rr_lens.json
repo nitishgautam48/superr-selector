@@ -1,0 +1,903 @@
+{
+  "rr_history": {
+    "seasons": {},
+    "weaknesses": []
+  },
+  "rr_pressure_profile": {
+    "batting": [
+      {
+        "phase": "PP",
+        "rr_balls": 766,
+        "rr_run_rate": 10.52,
+        "rr_wicket_pct": 3.26,
+        "rr_wpa_per100": 0.357,
+        "league_balls": 6265,
+        "league_run_rate": 10.06,
+        "league_wicket_pct": 4.39,
+        "league_wpa_per100": 0.129
+      },
+      {
+        "phase": "MID",
+        "rr_balls": 663,
+        "rr_run_rate": 9.04,
+        "rr_wicket_pct": 5.25,
+        "rr_wpa_per100": -0.015,
+        "league_balls": 6590,
+        "league_run_rate": 8.73,
+        "league_wicket_pct": 4.86,
+        "league_wpa_per100": -0.046
+      },
+      {
+        "phase": "DEATH",
+        "rr_balls": 684,
+        "rr_run_rate": 11.78,
+        "rr_wicket_pct": 8.8,
+        "rr_wpa_per100": -0.322,
+        "league_balls": 5709,
+        "league_run_rate": 10.92,
+        "league_wicket_pct": 10.46,
+        "league_wpa_per100": -0.241
+      },
+      {
+        "phase": "chase",
+        "rr_balls": 1341,
+        "rr_run_rate": 10.21,
+        "rr_wicket_pct": 5.63,
+        "rr_wpa_per100": 0.059,
+        "league_balls": 11970,
+        "league_run_rate": 9.47,
+        "league_wicket_pct": 6.03,
+        "league_wpa_per100": -0.021
+      },
+      {
+        "phase": "set/defend",
+        "rr_balls": 772,
+        "rr_run_rate": 10.9,
+        "rr_wicket_pct": 5.71,
+        "rr_wpa_per100": -0.045,
+        "league_balls": 6594,
+        "league_run_rate": 10.52,
+        "league_wicket_pct": 7.01,
+        "league_wpa_per100": -0.094
+      }
+    ],
+    "bowling": [
+      {
+        "phase": "PP",
+        "rr_balls": 671,
+        "rr_run_rate": 9.65,
+        "rr_wicket_pct": 4.33,
+        "rr_wpa_per100": 0.087,
+        "league_balls": 6265,
+        "league_run_rate": 10.06,
+        "league_wicket_pct": 4.39,
+        "league_wpa_per100": 0.129
+      },
+      {
+        "phase": "MID",
+        "rr_balls": 939,
+        "rr_run_rate": 8.75,
+        "rr_wicket_pct": 5.47,
+        "rr_wpa_per100": -0.142,
+        "league_balls": 6590,
+        "league_run_rate": 8.73,
+        "league_wicket_pct": 4.86,
+        "league_wpa_per100": -0.046
+      },
+      {
+        "phase": "DEATH",
+        "rr_balls": 747,
+        "rr_run_rate": 10.75,
+        "rr_wicket_pct": 9.97,
+        "rr_wpa_per100": -0.125,
+        "league_balls": 5709,
+        "league_run_rate": 10.92,
+        "league_wicket_pct": 10.46,
+        "league_wpa_per100": -0.241
+      },
+      {
+        "phase": "chase",
+        "rr_balls": 1638,
+        "rr_run_rate": 9.24,
+        "rr_wicket_pct": 6.2,
+        "rr_wpa_per100": -0.047,
+        "league_balls": 11970,
+        "league_run_rate": 9.47,
+        "league_wicket_pct": 6.03,
+        "league_wpa_per100": -0.021
+      },
+      {
+        "phase": "set/defend",
+        "rr_balls": 719,
+        "rr_run_rate": 10.49,
+        "rr_wicket_pct": 7.24,
+        "rr_wpa_per100": -0.128,
+        "league_balls": 6594,
+        "league_run_rate": 10.52,
+        "league_wicket_pct": 7.01,
+        "league_wpa_per100": -0.094
+      }
+    ]
+  },
+  "batters": [
+    {
+      "player_id": 6396,
+      "name": "Tim David",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Royal Challengers Bengaluru",
+      "phase=DEATH": {
+        "balls": 208,
+        "sr": 205.3,
+        "wpa_per100": 1.019
+      },
+      "phase=MID": {
+        "balls": 107,
+        "sr": 143.0,
+        "wpa_per100": -0.144
+      },
+      "phase=PP": {
+        "balls": 1,
+        "sr": 100.0,
+        "wpa_per100": 0.077
+      },
+      "situation=chase": {
+        "balls": 238,
+        "sr": 180.3,
+        "wpa_per100": 0.96
+      },
+      "situation=set/defend": {
+        "balls": 78,
+        "sr": 194.9,
+        "wpa_per100": -0.407
+      },
+      "pace_or_spin=Pace": {
+        "balls": 239,
+        "sr": 198.7,
+        "wpa_per100": 0.809
+      },
+      "pace_or_spin=Spin": {
+        "balls": 77,
+        "sr": 137.7,
+        "wpa_per100": 0.042
+      }
+    },
+    {
+      "player_id": 4260,
+      "name": "Heinrich Klaasen",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Sunrisers Hyderabad",
+      "phase=DEATH": {
+        "balls": 58,
+        "sr": 220.7,
+        "wpa_per100": -0.477
+      },
+      "phase=MID": {
+        "balls": 116,
+        "sr": 194.8,
+        "wpa_per100": 1.32
+      },
+      "phase=PP": {
+        "balls": 11,
+        "sr": 109.1,
+        "wpa_per100": -0.358
+      },
+      "situation=chase": {
+        "balls": 151,
+        "sr": 205.3,
+        "wpa_per100": 1.127
+      },
+      "situation=set/defend": {
+        "balls": 34,
+        "sr": 164.7,
+        "wpa_per100": -1.433
+      },
+      "pace_or_spin=Pace": {
+        "balls": 100,
+        "sr": 192.0,
+        "wpa_per100": 0.3
+      },
+      "pace_or_spin=Spin": {
+        "balls": 85,
+        "sr": 204.7,
+        "wpa_per100": 1.077
+      }
+    },
+    {
+      "player_id": 3647,
+      "name": "Shreyas Iyer",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Punjab Kings",
+      "phase=DEATH": {
+        "balls": 50,
+        "sr": 226.0,
+        "wpa_per100": 1.784
+      },
+      "phase=MID": {
+        "balls": 201,
+        "sr": 154.2,
+        "wpa_per100": 0.686
+      },
+      "phase=PP": {
+        "balls": 102,
+        "sr": 124.5,
+        "wpa_per100": -0.555
+      },
+      "situation=chase": {
+        "balls": 309,
+        "sr": 159.5,
+        "wpa_per100": 0.666
+      },
+      "situation=set/defend": {
+        "balls": 44,
+        "sr": 129.5,
+        "wpa_per100": -0.805
+      },
+      "pace_or_spin=Pace": {
+        "balls": 225,
+        "sr": 159.1,
+        "wpa_per100": 0.343
+      },
+      "pace_or_spin=Spin": {
+        "balls": 128,
+        "sr": 150.0,
+        "wpa_per100": 0.728
+      }
+    },
+    {
+      "player_id": 813,
+      "name": "Jos Buttler",
+      "plays_for_rr": true,
+      "rr_seasons": "2022,2023,2024",
+      "ipl_team": "Gujarat Titans",
+      "phase=DEATH": {
+        "balls": 62,
+        "sr": 233.9,
+        "wpa_per100": 1.588
+      },
+      "phase=MID": {
+        "balls": 104,
+        "sr": 141.3,
+        "wpa_per100": -0.055
+      },
+      "phase=PP": {
+        "balls": 317,
+        "sr": 156.2,
+        "wpa_per100": 0.093
+      },
+      "situation=chase": {
+        "balls": 254,
+        "sr": 163.8,
+        "wpa_per100": 0.312
+      },
+      "situation=set/defend": {
+        "balls": 229,
+        "sr": 162.0,
+        "wpa_per100": 0.189
+      },
+      "pace_or_spin=Pace": {
+        "balls": 319,
+        "sr": 172.1,
+        "wpa_per100": 0.253
+      },
+      "pace_or_spin=Spin": {
+        "balls": 164,
+        "sr": 145.1,
+        "wpa_per100": 0.254
+      }
+    },
+    {
+      "player_id": 7216,
+      "name": "Prabhsimran Singh",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Punjab Kings",
+      "phase=MID": {
+        "balls": 96,
+        "sr": 188.5,
+        "wpa_per100": 0.08
+      },
+      "phase=PP": {
+        "balls": 226,
+        "sr": 188.1,
+        "wpa_per100": 0.65
+      },
+      "situation=chase": {
+        "balls": 219,
+        "sr": 183.1,
+        "wpa_per100": 0.514
+      },
+      "situation=set/defend": {
+        "balls": 103,
+        "sr": 199.0,
+        "wpa_per100": 0.407
+      },
+      "pace_or_spin=Pace": {
+        "balls": 218,
+        "sr": 202.3,
+        "wpa_per100": 0.759
+      },
+      "pace_or_spin=Spin": {
+        "balls": 104,
+        "sr": 158.7,
+        "wpa_per100": -0.105
+      }
+    },
+    {
+      "player_id": 1699,
+      "name": "Suryakumar Yadav",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Mumbai Indians",
+      "phase=DEATH": {
+        "balls": 82,
+        "sr": 186.6,
+        "wpa_per100": -1.284
+      },
+      "phase=MID": {
+        "balls": 253,
+        "sr": 175.1,
+        "wpa_per100": 0.647
+      },
+      "phase=PP": {
+        "balls": 129,
+        "sr": 155.8,
+        "wpa_per100": 0.236
+      },
+      "situation=chase": {
+        "balls": 381,
+        "sr": 166.9,
+        "wpa_per100": 0.352
+      },
+      "situation=set/defend": {
+        "balls": 83,
+        "sr": 194.0,
+        "wpa_per100": -0.546
+      },
+      "pace_or_spin=Pace": {
+        "balls": 308,
+        "sr": 184.7,
+        "wpa_per100": 0.212
+      },
+      "pace_or_spin=Spin": {
+        "balls": 156,
+        "sr": 146.2,
+        "wpa_per100": 0.151
+      }
+    },
+    {
+      "player_id": 3125,
+      "name": "Nicholas Pooran",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Lucknow Super Giants",
+      "phase=DEATH": {
+        "balls": 99,
+        "sr": 188.9,
+        "wpa_per100": 0.063
+      },
+      "phase=MID": {
+        "balls": 160,
+        "sr": 127.5,
+        "wpa_per100": 0.124
+      },
+      "phase=PP": {
+        "balls": 83,
+        "sr": 197.6,
+        "wpa_per100": 0.466
+      },
+      "situation=chase": {
+        "balls": 270,
+        "sr": 155.2,
+        "wpa_per100": 0.274
+      },
+      "situation=set/defend": {
+        "balls": 72,
+        "sr": 188.9,
+        "wpa_per100": -0.13
+      },
+      "pace_or_spin=Pace": {
+        "balls": 217,
+        "sr": 169.6,
+        "wpa_per100": 0.316
+      },
+      "pace_or_spin=Spin": {
+        "balls": 125,
+        "sr": 149.6,
+        "wpa_per100": -0.031
+      }
+    },
+    {
+      "player_id": 4722,
+      "name": "Rashid Khan",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Gujarat Titans",
+      "phase=DEATH": {
+        "balls": 184,
+        "sr": 181.5,
+        "wpa_per100": 0.292
+      },
+      "phase=MID": {
+        "balls": 5,
+        "sr": 180.0,
+        "wpa_per100": -1.788
+      },
+      "situation=chase": {
+        "balls": 88,
+        "sr": 192.0,
+        "wpa_per100": 1.677
+      },
+      "situation=set/defend": {
+        "balls": 101,
+        "sr": 172.3,
+        "wpa_per100": -1.016
+      },
+      "pace_or_spin=Pace": {
+        "balls": 176,
+        "sr": 184.7,
+        "wpa_per100": 0.285
+      },
+      "pace_or_spin=Spin": {
+        "balls": 13,
+        "sr": 138.5,
+        "wpa_per100": -0.402
+      }
+    },
+    {
+      "player_id": 6288,
+      "name": "Shubman Gill",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Gujarat Titans",
+      "phase=DEATH": {
+        "balls": 24,
+        "sr": 179.2,
+        "wpa_per100": -0.889
+      },
+      "phase=MID": {
+        "balls": 131,
+        "sr": 164.9,
+        "wpa_per100": 0.333
+      },
+      "phase=PP": {
+        "balls": 349,
+        "sr": 144.1,
+        "wpa_per100": 0.203
+      },
+      "situation=chase": {
+        "balls": 302,
+        "sr": 146.7,
+        "wpa_per100": 0.192
+      },
+      "situation=set/defend": {
+        "balls": 202,
+        "sr": 157.9,
+        "wpa_per100": 0.175
+      },
+      "pace_or_spin=Pace": {
+        "balls": 338,
+        "sr": 146.7,
+        "wpa_per100": 0.205
+      },
+      "pace_or_spin=Spin": {
+        "balls": 166,
+        "sr": 160.2,
+        "wpa_per100": 0.145
+      }
+    },
+    {
+      "player_id": 3916,
+      "name": "Jitesh Sharma",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Royal Challengers Bengaluru",
+      "phase=DEATH": {
+        "balls": 92,
+        "sr": 189.1,
+        "wpa_per100": -0.234
+      },
+      "phase=MID": {
+        "balls": 126,
+        "sr": 127.8,
+        "wpa_per100": 0.226
+      },
+      "situation=chase": {
+        "balls": 178,
+        "sr": 141.6,
+        "wpa_per100": 0.199
+      },
+      "situation=set/defend": {
+        "balls": 40,
+        "sr": 207.5,
+        "wpa_per100": -0.712
+      },
+      "pace_or_spin=Pace": {
+        "balls": 155,
+        "sr": 157.4,
+        "wpa_per100": -0.209
+      },
+      "pace_or_spin=Spin": {
+        "balls": 63,
+        "sr": 144.4,
+        "wpa_per100": 0.624
+      }
+    }
+  ],
+  "bowlers": [
+    {
+      "player_id": 781,
+      "name": "Sunil Narine",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Kolkata Knight Riders",
+      "phase=DEATH": {
+        "balls": 46,
+        "econ": 5.3,
+        "wpa_per100": 1.561
+      },
+      "phase=MID": {
+        "balls": 178,
+        "econ": 6.6,
+        "wpa_per100": 0.539
+      },
+      "phase=PP": {
+        "balls": 92,
+        "econ": 7.3,
+        "wpa_per100": 0.196
+      },
+      "situation=chase": {
+        "balls": 225,
+        "econ": 6.4,
+        "wpa_per100": 0.805
+      },
+      "situation=set/defend": {
+        "balls": 91,
+        "econ": 7.2,
+        "wpa_per100": 0.05
+      },
+      "pace_or_spin=Spin": {
+        "balls": 316,
+        "econ": 6.6,
+        "wpa_per100": 0.588
+      }
+    },
+    {
+      "player_id": 4722,
+      "name": "Rashid Khan",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Gujarat Titans",
+      "phase=DEATH": {
+        "balls": 125,
+        "econ": 7.9,
+        "wpa_per100": 1.033
+      },
+      "phase=MID": {
+        "balls": 246,
+        "econ": 6.8,
+        "wpa_per100": 0.285
+      },
+      "phase=PP": {
+        "balls": 116,
+        "econ": 8.0,
+        "wpa_per100": 0.053
+      },
+      "situation=chase": {
+        "balls": 347,
+        "econ": 6.8,
+        "wpa_per100": 0.56
+      },
+      "situation=set/defend": {
+        "balls": 140,
+        "econ": 8.6,
+        "wpa_per100": 0.079
+      },
+      "pace_or_spin=Spin": {
+        "balls": 487,
+        "econ": 7.4,
+        "wpa_per100": 0.422
+      }
+    },
+    {
+      "player_id": 830,
+      "name": "Josh Hazlewood",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Royal Challengers Bengaluru",
+      "phase=DEATH": {
+        "balls": 123,
+        "econ": 10.1,
+        "wpa_per100": 1.586
+      },
+      "phase=MID": {
+        "balls": 45,
+        "econ": 10.5,
+        "wpa_per100": 0.067
+      },
+      "phase=PP": {
+        "balls": 200,
+        "econ": 8.0,
+        "wpa_per100": 0.501
+      },
+      "situation=chase": {
+        "balls": 243,
+        "econ": 8.6,
+        "wpa_per100": 1.07
+      },
+      "situation=set/defend": {
+        "balls": 125,
+        "econ": 9.8,
+        "wpa_per100": 0.307
+      },
+      "pace_or_spin=Pace": {
+        "balls": 368,
+        "econ": 9.0,
+        "wpa_per100": 0.811
+      }
+    },
+    {
+      "player_id": 2933,
+      "name": "Jasprit Bumrah",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Mumbai Indians",
+      "phase=DEATH": {
+        "balls": 166,
+        "econ": 7.6,
+        "wpa_per100": 0.562
+      },
+      "phase=MID": {
+        "balls": 48,
+        "econ": 8.0,
+        "wpa_per100": 0.21
+      },
+      "phase=PP": {
+        "balls": 203,
+        "econ": 8.1,
+        "wpa_per100": -0.011
+      },
+      "situation=chase": {
+        "balls": 205,
+        "econ": 8.2,
+        "wpa_per100": 0.324
+      },
+      "situation=set/defend": {
+        "balls": 212,
+        "econ": 7.6,
+        "wpa_per100": 0.164
+      },
+      "pace_or_spin=Pace": {
+        "balls": 417,
+        "econ": 7.9,
+        "wpa_per100": 0.243
+      }
+    },
+    {
+      "player_id": 19316,
+      "name": "Maheesh Theekshana",
+      "plays_for_rr": true,
+      "rr_seasons": "2025",
+      "ipl_team": "Rajasthan Royals",
+      "phase=DEATH": {
+        "balls": 65,
+        "econ": 8.7,
+        "wpa_per100": -0.025
+      },
+      "phase=MID": {
+        "balls": 146,
+        "econ": 6.5,
+        "wpa_per100": 0.51
+      },
+      "phase=PP": {
+        "balls": 201,
+        "econ": 7.2,
+        "wpa_per100": 0.472
+      },
+      "situation=chase": {
+        "balls": 269,
+        "econ": 6.9,
+        "wpa_per100": 0.266
+      },
+      "situation=set/defend": {
+        "balls": 143,
+        "econ": 7.7,
+        "wpa_per100": 0.672
+      },
+      "pace_or_spin=Spin": {
+        "balls": 412,
+        "econ": 7.2,
+        "wpa_per100": 0.407
+      }
+    },
+    {
+      "player_id": 6256,
+      "name": "Varun Chakravarthy",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Kolkata Knight Riders",
+      "phase=DEATH": {
+        "balls": 69,
+        "econ": 8.2,
+        "wpa_per100": 1.288
+      },
+      "phase=MID": {
+        "balls": 207,
+        "econ": 8.0,
+        "wpa_per100": 0.442
+      },
+      "phase=PP": {
+        "balls": 139,
+        "econ": 8.8,
+        "wpa_per100": -0.019
+      },
+      "situation=chase": {
+        "balls": 297,
+        "econ": 8.0,
+        "wpa_per100": 0.533
+      },
+      "situation=set/defend": {
+        "balls": 118,
+        "econ": 9.0,
+        "wpa_per100": 0.163
+      },
+      "pace_or_spin=Spin": {
+        "balls": 415,
+        "econ": 8.3,
+        "wpa_per100": 0.428
+      }
+    },
+    {
+      "player_id": 8661,
+      "name": "Matheesha Pathirana",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Kolkata Knight Riders",
+      "phase=DEATH": {
+        "balls": 138,
+        "econ": 9.3,
+        "wpa_per100": 0.563
+      },
+      "phase=MID": {
+        "balls": 71,
+        "econ": 8.5,
+        "wpa_per100": 0.669
+      },
+      "phase=PP": {
+        "balls": 9,
+        "econ": 11.3,
+        "wpa_per100": -0.556
+      },
+      "situation=chase": {
+        "balls": 141,
+        "econ": 9.4,
+        "wpa_per100": 0.579
+      },
+      "situation=set/defend": {
+        "balls": 77,
+        "econ": 8.6,
+        "wpa_per100": 0.502
+      },
+      "pace_or_spin=Pace": {
+        "balls": 218,
+        "econ": 9.1,
+        "wpa_per100": 0.551
+      }
+    },
+    {
+      "player_id": 4373,
+      "name": "Mustafizur Rahman",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Kolkata Knight Riders",
+      "phase=DEATH": {
+        "balls": 157,
+        "econ": 10.1,
+        "wpa_per100": 0.436
+      },
+      "phase=MID": {
+        "balls": 41,
+        "econ": 6.9,
+        "wpa_per100": 1.266
+      },
+      "phase=PP": {
+        "balls": 133,
+        "econ": 7.8,
+        "wpa_per100": 0.04
+      },
+      "situation=chase": {
+        "balls": 141,
+        "econ": 8.9,
+        "wpa_per100": -0.076
+      },
+      "situation=set/defend": {
+        "balls": 190,
+        "econ": 8.7,
+        "wpa_per100": 0.718
+      },
+      "pace_or_spin=Pace": {
+        "balls": 331,
+        "econ": 8.8,
+        "wpa_per100": 0.38
+      }
+    },
+    {
+      "player_id": 6450,
+      "name": "Mujeeb Ur Rahman",
+      "plays_for_rr": false,
+      "rr_seasons": null,
+      "ipl_team": "Mumbai Indians",
+      "phase=DEATH": {
+        "balls": 21,
+        "econ": 6.9,
+        "wpa_per100": 0.681
+      },
+      "phase=MID": {
+        "balls": 50,
+        "econ": 5.8,
+        "wpa_per100": 1.393
+      },
+      "phase=PP": {
+        "balls": 109,
+        "econ": 8.0,
+        "wpa_per100": 0.231
+      },
+      "situation=chase": {
+        "balls": 162,
+        "econ": 6.7,
+        "wpa_per100": 0.735
+      },
+      "situation=set/defend": {
+        "balls": 18,
+        "econ": 12.3,
+        "wpa_per100": -0.549
+      },
+      "pace_or_spin=Spin": {
+        "balls": 180,
+        "econ": 7.2,
+        "wpa_per100": 0.607
+      }
+    },
+    {
+      "player_id": 1612,
+      "name": "Yuzvendra Chahal",
+      "plays_for_rr": true,
+      "rr_seasons": "2022,2023,2024",
+      "ipl_team": "Punjab Kings",
+      "phase=DEATH": {
+        "balls": 117,
+        "econ": 8.6,
+        "wpa_per100": 1.572
+      },
+      "phase=MID": {
+        "balls": 321,
+        "econ": 8.6,
+        "wpa_per100": 0.047
+      },
+      "phase=PP": {
+        "balls": 47,
+        "econ": 5.4,
+        "wpa_per100": 0.989
+      },
+      "situation=chase": {
+        "balls": 395,
+        "econ": 8.4,
+        "wpa_per100": 0.559
+      },
+      "situation=set/defend": {
+        "balls": 90,
+        "econ": 8.0,
+        "wpa_per100": 0.271
+      },
+      "pace_or_spin=Spin": {
+        "balls": 485,
+        "econ": 8.3,
+        "wpa_per100": 0.506
+      }
+    }
+  ],
+  "note": "Evidence numbers only (pressure balls). The 'why RR' text is Nitish's.",
+  "schema_version": "2.0.0"
+}

@@ -1,0 +1,198 @@
+[
+ {
+  "timestamp": "2026-11-11T10:56:57",
+  "setting": "data.other_extra_legal",
+  "after": "False",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T10:56:57",
+  "setting": "data.batter_dismissal_exclude",
+  "after": "['Retire Out']",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:04:25",
+  "setting": "pressure.high_pct",
+  "after": "20",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:04:25",
+  "setting": "pressure.knockout_multiplier",
+  "after": "1.15",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:04:25",
+  "setting": "wp_model.tie_handling",
+  "after": "half",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:06:04",
+  "setting": "wp_model.exclude_reduced_overs",
+  "after": "True",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:07:16",
+  "setting": "pressure.normalise_by",
+  "after": "innings",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.weights",
+  "after": "{'A': 0.5, 'B': 0.25, 'C': 0.25}",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.value_blend",
+  "after": "{'wpa': 0.5, 'rae': 0.5}",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.shrink_k_balls",
+  "after": "100",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.associate_weight",
+  "after": "0.5",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.emerging_weight",
+  "after": "0.7",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.recency_on",
+  "after": "True",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T11:15:04",
+  "setting": "rating.eligibility",
+  "after": "{'batter_min_pressure_balls': 120, 'batter_min_pressure_innings': 12, 'bowler_min_pressure_balls': 120, 'bowler_min_pressure_matches': 12}",
+  "reason": "autopilot default - review",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-11T12:27:00",
+  "setting": "rating.value_blend",
+  "after": "{'wpa': 0.25, 'rae': 0.75}",
+  "reason": "Nitish asked for WPA 0.25; per-ball WPA is dominated by rare swings and lowered persistence (batter A 0.04 -> 0.13)",
+  "source": "nitish"
+ },
+ {
+  "timestamp": "2026-11-11T12:27:00",
+  "setting": "expected.context.era",
+  "after": "True",
+  "reason": "Season x competition scoring era added to baselines (IPL SR 134 in 2022 -> 156 in 2026); persistence A batters 0.13 -> 0.23, bowlers 0.10 -> 0.15",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-11T12:27:00",
+  "setting": "expected.context.bowl_kind",
+  "after": "True",
+  "reason": "Left/right-arm pace, wrist and finger spin x batting hand in baselines; bowler persistence 0.15 -> 0.16 (odd/even 0.07 -> 0.09)",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-11T12:27:00",
+  "setting": "expected.context.opposition_strength",
+  "after": "False",
+  "reason": "Built and tested but left off: no persistence gain (batters 0.23 -> 0.22, bowlers 0.16 -> 0.15)",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-12T08:53:53",
+  "setting": "rr_target.use_for_final",
+  "after": "True",
+  "reason": "autopilot default - review: RR auction-target layer added on request",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-12T08:53:53",
+  "setting": "rr_target.funnel",
+  "after": "{'min_pressure_balls': 180, 'min_pressure_units': 15, 'active_from': 2025, 'recent_from': 2025, 'recent_pressure_balls': 40, 'require_level': True, 'exclude_current_rr': True}",
+  "reason": "autopilot default - review: RR auction-target layer added on request",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-12T08:53:53",
+  "setting": "rr_target.fit_weight",
+  "after": "0.3",
+  "reason": "autopilot default - review: RR auction-target layer added on request",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-12T08:53:53",
+  "setting": "rr_target.need_seasons_from",
+  "after": "2025",
+  "reason": "autopilot default - review: RR auction-target layer added on request",
+  "source": "autopilot"
+ },
+ {
+  "timestamp": "2026-11-14T16:41:15",
+  "setting": "expected.context.batting_position",
+  "after": "True",
+  "reason": "Batting-order band added to baselines; bowler A repeatability 0.155->0.174 (seasons) and 0.072->0.101 (odd/even), batters neutral",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-14T16:41:15",
+  "setting": "expected.context.opponent_quality",
+  "after": "False",
+  "reason": "Built and tested, left off: bowler repeatability fell 0.155->0.137",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-14T16:41:15",
+  "setting": "rating.bowler_value",
+  "after": "{'enabled': False}",
+  "reason": "Split run-control/wicket value tested, left off: odd/even repeatability fell to -0.022 at 50% wickets; wicket-taking under pressure does not repeat",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-14T16:41:15",
+  "setting": "rating.baseline_phase_matched",
+  "after": "False",
+  "reason": "Phase-matched own baseline for B tested, left off: B repeatability fell for bowlers (0.062->0.017)",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-15T17:01:54",
+  "setting": "auction_pool.exclude_nationalities",
+  "after": "[Pakistan]",
+  "reason": "Pakistan nationals have not played the IPL since 2009 (de facto ban); none is in an IPL 2022-26 squad in the data. Removes Fakhar Zaman (target #7), Nawaz, Shaheen Afridi, Haris Rauf from the pools",
+  "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-15T17:01:54",
+  "setting": "rating.weights",
+  "after": "{'A': 0.4, 'B': 0.0, 'C': 0.2, 'Q': 0.4}",
+  "reason": "Forward back-test (rate <=2023 / <=2024, score pressure quality in later seasons): old weights rank corr. with future ~0.13 (worst 0.04); new weights 0.33 (worst 0.28). B (clutch delta) predicts negatively, so weight 0; still reported. Review",
+  "source": "nitish-request"
+ }
+]

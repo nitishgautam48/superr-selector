@@ -1,0 +1,460 @@
+{
+  "model": {
+    "batter": [
+      {
+        "rank": 1,
+        "player_id": 6396,
+        "name": "Tim David",
+        "display": "Tim David (Australia, Australia in Bangladesh T20I Series 2026)",
+        "model_rank": 3,
+        "prs": 98.1,
+        "target_rank": 1,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 2,
+        "player_id": 4260,
+        "name": "Heinrich Klaasen",
+        "display": "Heinrich Klaasen (Sunrisers Hyderabad, IPL 2026)",
+        "model_rank": 6,
+        "prs": 95.2,
+        "target_rank": 2,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 3,
+        "player_id": 3647,
+        "name": "Shreyas Iyer",
+        "display": "Shreyas Iyer (India, India in Japan T20I Match 2026)",
+        "model_rank": 15,
+        "prs": 86.7,
+        "target_rank": 3,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 4,
+        "player_id": 813,
+        "name": "Jos Buttler",
+        "display": "Jos Buttler (England, England in Sri Lanka T20I Series 2026)",
+        "model_rank": 16,
+        "prs": 85.7,
+        "target_rank": 4,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 5,
+        "player_id": 7216,
+        "name": "Prabhsimran Singh",
+        "display": "Prabhsimran Singh (India, India in Zimbabwe T20I Series 2026)",
+        "model_rank": 12,
+        "prs": 89.5,
+        "target_rank": 5,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 6,
+        "player_id": 1699,
+        "name": "Suryakumar Yadav",
+        "display": "Suryakumar Yadav (India, New Zealand in India T20I Series 2026)",
+        "model_rank": 10,
+        "prs": 91.4,
+        "target_rank": 6,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 7,
+        "player_id": 3125,
+        "name": "Nicholas Pooran",
+        "display": "Nicholas Pooran (Lucknow Super Giants, IPL 2026)",
+        "model_rank": 26,
+        "prs": 76.2,
+        "target_rank": 7,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 8,
+        "player_id": 4722,
+        "name": "Rashid Khan",
+        "display": "Rashid Khan (Afghanistan, Afghanistan v Zimbabwe T20I Series 2026)",
+        "model_rank": 28,
+        "prs": 74.3,
+        "target_rank": 8,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 9,
+        "player_id": 6288,
+        "name": "Shubman Gill",
+        "display": "Shubman Gill (Gujarat Titans, IPL 2026)",
+        "model_rank": 22,
+        "prs": 80.0,
+        "target_rank": 9,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 10,
+        "player_id": 3916,
+        "name": "Jitesh Sharma",
+        "display": "Jitesh Sharma (Royal Challengers Bengaluru, IPL 2026)",
+        "model_rank": 24,
+        "prs": 78.1,
+        "target_rank": 10,
+        "provenance": "model",
+        "reason": ""
+      }
+    ],
+    "bowler": [
+      {
+        "rank": 1,
+        "player_id": 781,
+        "name": "Sunil Narine",
+        "display": "Sunil Narine (Kolkata Knight Riders, IPL 2026)",
+        "model_rank": 1,
+        "prs": 100.0,
+        "target_rank": 1,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 2,
+        "player_id": 4722,
+        "name": "Rashid Khan",
+        "display": "Rashid Khan (Afghanistan, Afghanistan v Zimbabwe T20I Series 2026)",
+        "model_rank": 3,
+        "prs": 98.0,
+        "target_rank": 2,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 3,
+        "player_id": 830,
+        "name": "Josh Hazlewood",
+        "display": "Josh Hazlewood (Royal Challengers Bengaluru, IPL 2026)",
+        "model_rank": 14,
+        "prs": 87.0,
+        "target_rank": 3,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 4,
+        "player_id": 2933,
+        "name": "Jasprit Bumrah",
+        "display": "Jasprit Bumrah (India, India in Japan T20I Match 2026)",
+        "model_rank": 2,
+        "prs": 99.0,
+        "target_rank": 4,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 5,
+        "player_id": 19316,
+        "name": "Maheesh Theekshana",
+        "display": "Maheesh Theekshana (Sri Lanka, Sri Lanka in Pakistan T20I Series 2026)",
+        "model_rank": 6,
+        "prs": 95.0,
+        "target_rank": 5,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 6,
+        "player_id": 6256,
+        "name": "Varun Chakravarthy",
+        "display": "Varun Chakravarthy (India, Afghanistan vs India in India T20I Series 2026)",
+        "model_rank": 10,
+        "prs": 91.0,
+        "target_rank": 6,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 7,
+        "player_id": 8661,
+        "name": "Matheesha Pathirana",
+        "display": "Matheesha Pathirana (Sri Lanka, England in Sri Lanka T20I Series 2026)",
+        "model_rank": 5,
+        "prs": 96.0,
+        "target_rank": 7,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 8,
+        "player_id": 4373,
+        "name": "Mustafizur Rahman",
+        "display": "Mustafizur Rahman (Bangladesh, Bangladesh in Zimbabwe T20I Series 2026)",
+        "model_rank": 12,
+        "prs": 89.0,
+        "target_rank": 8,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 9,
+        "player_id": 6450,
+        "name": "Mujeeb Ur Rahman",
+        "display": "Mujeeb Ur Rahman (Afghanistan, Afghanistan v Zimbabwe T20I Series 2026)",
+        "model_rank": 16,
+        "prs": 85.0,
+        "target_rank": 9,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 10,
+        "player_id": 1612,
+        "name": "Yuzvendra Chahal",
+        "display": "Yuzvendra Chahal (Punjab Kings, IPL 2026)",
+        "model_rank": 25,
+        "prs": 76.0,
+        "target_rank": 10,
+        "provenance": "model",
+        "reason": ""
+      }
+    ]
+  },
+  "final": {
+    "batter": [
+      {
+        "rank": 1,
+        "player_id": 6396,
+        "name": "Tim David",
+        "display": "Tim David (Australia, Australia in Bangladesh T20I Series 2026)",
+        "model_rank": 3,
+        "prs": 98.1,
+        "target_rank": 1,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 2,
+        "player_id": 4260,
+        "name": "Heinrich Klaasen",
+        "display": "Heinrich Klaasen (Sunrisers Hyderabad, IPL 2026)",
+        "model_rank": 6,
+        "prs": 95.2,
+        "target_rank": 2,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 3,
+        "player_id": 3647,
+        "name": "Shreyas Iyer",
+        "display": "Shreyas Iyer (India, India in Japan T20I Match 2026)",
+        "model_rank": 15,
+        "prs": 86.7,
+        "target_rank": 3,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 4,
+        "player_id": 813,
+        "name": "Jos Buttler",
+        "display": "Jos Buttler (England, England in Sri Lanka T20I Series 2026)",
+        "model_rank": 16,
+        "prs": 85.7,
+        "target_rank": 4,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 5,
+        "player_id": 7216,
+        "name": "Prabhsimran Singh",
+        "display": "Prabhsimran Singh (India, India in Zimbabwe T20I Series 2026)",
+        "model_rank": 12,
+        "prs": 89.5,
+        "target_rank": 5,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 6,
+        "player_id": 1699,
+        "name": "Suryakumar Yadav",
+        "display": "Suryakumar Yadav (India, New Zealand in India T20I Series 2026)",
+        "model_rank": 10,
+        "prs": 91.4,
+        "target_rank": 6,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 7,
+        "player_id": 3125,
+        "name": "Nicholas Pooran",
+        "display": "Nicholas Pooran (Lucknow Super Giants, IPL 2026)",
+        "model_rank": 26,
+        "prs": 76.2,
+        "target_rank": 7,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 8,
+        "player_id": 4722,
+        "name": "Rashid Khan",
+        "display": "Rashid Khan (Afghanistan, Afghanistan v Zimbabwe T20I Series 2026)",
+        "model_rank": 28,
+        "prs": 74.3,
+        "target_rank": 8,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 9,
+        "player_id": 6288,
+        "name": "Shubman Gill",
+        "display": "Shubman Gill (Gujarat Titans, IPL 2026)",
+        "model_rank": 22,
+        "prs": 80.0,
+        "target_rank": 9,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 10,
+        "player_id": 3916,
+        "name": "Jitesh Sharma",
+        "display": "Jitesh Sharma (Royal Challengers Bengaluru, IPL 2026)",
+        "model_rank": 24,
+        "prs": 78.1,
+        "target_rank": 10,
+        "provenance": "model",
+        "reason": ""
+      }
+    ],
+    "bowler": [
+      {
+        "rank": 1,
+        "player_id": 781,
+        "name": "Sunil Narine",
+        "display": "Sunil Narine (Kolkata Knight Riders, IPL 2026)",
+        "model_rank": 1,
+        "prs": 100.0,
+        "target_rank": 1,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 2,
+        "player_id": 4722,
+        "name": "Rashid Khan",
+        "display": "Rashid Khan (Afghanistan, Afghanistan v Zimbabwe T20I Series 2026)",
+        "model_rank": 3,
+        "prs": 98.0,
+        "target_rank": 2,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 3,
+        "player_id": 830,
+        "name": "Josh Hazlewood",
+        "display": "Josh Hazlewood (Royal Challengers Bengaluru, IPL 2026)",
+        "model_rank": 14,
+        "prs": 87.0,
+        "target_rank": 3,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 4,
+        "player_id": 2933,
+        "name": "Jasprit Bumrah",
+        "display": "Jasprit Bumrah (India, India in Japan T20I Match 2026)",
+        "model_rank": 2,
+        "prs": 99.0,
+        "target_rank": 4,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 5,
+        "player_id": 19316,
+        "name": "Maheesh Theekshana",
+        "display": "Maheesh Theekshana (Sri Lanka, Sri Lanka in Pakistan T20I Series 2026)",
+        "model_rank": 6,
+        "prs": 95.0,
+        "target_rank": 5,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 6,
+        "player_id": 6256,
+        "name": "Varun Chakravarthy",
+        "display": "Varun Chakravarthy (India, Afghanistan vs India in India T20I Series 2026)",
+        "model_rank": 10,
+        "prs": 91.0,
+        "target_rank": 6,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 7,
+        "player_id": 8661,
+        "name": "Matheesha Pathirana",
+        "display": "Matheesha Pathirana (Sri Lanka, England in Sri Lanka T20I Series 2026)",
+        "model_rank": 5,
+        "prs": 96.0,
+        "target_rank": 7,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 8,
+        "player_id": 4373,
+        "name": "Mustafizur Rahman",
+        "display": "Mustafizur Rahman (Bangladesh, Bangladesh in Zimbabwe T20I Series 2026)",
+        "model_rank": 12,
+        "prs": 89.0,
+        "target_rank": 8,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 9,
+        "player_id": 6450,
+        "name": "Mujeeb Ur Rahman",
+        "display": "Mujeeb Ur Rahman (Afghanistan, Afghanistan v Zimbabwe T20I Series 2026)",
+        "model_rank": 16,
+        "prs": 85.0,
+        "target_rank": 9,
+        "provenance": "model",
+        "reason": ""
+      },
+      {
+        "rank": 10,
+        "player_id": 1612,
+        "name": "Yuzvendra Chahal",
+        "display": "Yuzvendra Chahal (Punjab Kings, IPL 2026)",
+        "model_rank": 25,
+        "prs": 76.0,
+        "target_rank": 10,
+        "provenance": "model",
+        "reason": ""
+      }
+    ]
+  },
+  "changes": {
+    "batter": [],
+    "bowler": []
+  },
+  "refused_overrides": [],
+  "schema_version": "2.0.0"
+}
