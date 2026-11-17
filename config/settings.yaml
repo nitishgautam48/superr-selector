@@ -131,7 +131,7 @@ reliability:
   dependence_rank_gap: 15      # flag a player whose IPL-only and T20I-only ranks differ by more than this
 
 rr_target:                     # the brief: reliable players under pressure whom RR should back at the IPL 2027 auction
-  use_for_final: true          # the submission model list = RR auction targets (the pure pressure ranking is kept too)
+  use_for_final: false         # organisers (Round 1 clarification): rank who performs best under pressure, NOT auction picks; RR targets kept as context
   funnel:
     min_pressure_balls: 180    # reliability gate (evidence: doubles batter repeatability vs 120)
     min_pressure_units: 15     # innings (batters) / matches (bowlers) with pressure balls

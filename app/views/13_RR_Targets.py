@@ -9,8 +9,11 @@ from app import charts, components as C, data as D, state
 
 MODE = state.theme_mode()
 res = D.js("rr_targets.json")
-C.page_header("RR auction targets", "Reliable players under pressure whom RR should back at the IPL 2027 auction - "
-              "data first, then RR's needs, then your availability research.")
+C.page_header("RR auction targets", "Context view: reliable players under pressure, filtered for RR's needs and auction "
+              "availability. The ranked lists on Overview are the pure pressure ranking.")
+if not D.cfg().get("rr_target.use_for_final", False):
+    st.info("Round 1 asks who performs best under pressure, not whom RR should retain or buy, so this page is context only.",
+            icon=":material/info:")
 if not res:
     C.empty_state("No RR target results yet - run the pipeline.")
     st.stop()
@@ -64,4 +67,4 @@ for role in ("batter", "bowler"):
         with st.expander(f"{len(na)} {role}s removed by the RR alignment gate"):
             st.dataframe(pd.DataFrame(na), hide_index=True, width="stretch")
 st.caption(f"Target score = {1 - res.get('fit_weight', 0.3):.0%} pressure rating + {res.get('fit_weight', 0.3):.0%} RR fit "
-           "(percentiles within the pool). The submission list in Overview starts from this order; your decisions apply on top.")
+           "(percentiles within the pool). Context only; the submission lists come from the pure pressure ranking.")

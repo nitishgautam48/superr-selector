@@ -1,7 +1,7 @@
 {
   "source": "real",
-  "run_at": "2026-11-15T17:03:36",
-  "config_hash": "c95016f1d30c",
+  "run_at": "2026-11-17T13:33:50",
+  "config_hash": "517a031ce891",
   "row_counts": {
     "balls": 200999,
     "matches": 883,
@@ -68,11 +68,11 @@
     "availability_errors": 0
   },
   "timings_s": {
-    "data": 1.17,
-    "pressure": 49.88,
-    "rating": 21.0,
-    "reliability": 22.89,
-    "rr_target": 0.87
+    "data": 1.58,
+    "pressure": 56.61,
+    "rating": 24.19,
+    "reliability": 23.2,
+    "rr_target": 1.04
   },
   "steps": [
     "data",

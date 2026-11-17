@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 config/settings_overrides.yaml.bak
+# local Python environment
+.venv/
+venv/

@@ -194,5 +194,12 @@
   "after": "{'A': 0.4, 'B': 0.0, 'C': 0.2, 'Q': 0.4}",
   "reason": "Forward back-test (rate <=2023 / <=2024, score pressure quality in later seasons): old weights rank corr. with future ~0.13 (worst 0.04); new weights 0.33 (worst 0.28). B (clutch delta) predicts negatively, so weight 0; still reported. Review",
   "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-17T13:31:52",
+  "setting": "rr_target.use_for_final",
+  "after": "False",
+  "reason": "Organisers clarified Round 1: identify who performs best under pressure; not recommending players for RR to retain or pick at auction. Final lists = pure pressure ranking; RR targets kept as context",
+  "source": "nitish-request"
  }
 ]
