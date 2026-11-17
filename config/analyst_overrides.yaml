@@ -1,2 +1,33 @@
-# Analyst decisions (pin / drop / swap_rank) - empty in the public build. See README.
-overrides: []
+# the analyst's decisions on the model top 10s. The model proposes; you decide.
+# Each entry needs: role (batter | bowler), action (pin | drop | swap_rank), player_id, reason (>= 10 characters).
+#   pin        keep / add a player; optional rank (default: his model rank, or 10 if he is not in the model top 10)
+#   drop       remove a player; the next best eligible player moves up
+#   swap_rank  move a player in the list to "rank"
+# Entries without a valid reason are refused and reported on the dashboard. Every applied entry is logged in
+# outputs/private/decision_log.csv. Example (remove the leading "# " to use):
+# - {role: batter, action: pin, player_id: 12345, reason: "Best death-overs record against pace in chases"}
+overrides:
+- role: bowler
+  action: drop
+  player_id: 2490
+  reason: 'Mohammad Nawaz: Pakistan national, not eligible to play in the IPL (data
+    rank 8 kept for reference)'
+- role: bowler
+  action: drop
+  player_id: 5979
+  reason: 'Abrar Ahmed: Pakistan national, not eligible to play in the IPL (data rank
+    9 kept for reference)'
+- role: bowler
+  action: pin
+  player_id: 3644
+  rank: 8
+  reason: 'Kuldeep Yadav (India, data rank 11) takes Nawaz''s rank-8 slot: Pakistan
+    nationals cannot play in the IPL; slot given to the next-best IPL-eligible bowler
+    in the data ranking'
+- role: bowler
+  action: pin
+  player_id: 4373
+  rank: 9
+  reason: 'Mustafizur Rahman (Bangladesh, data rank 12) takes Abrar''s rank-9 slot:
+    Pakistan nationals cannot play in the IPL; slot given to the next-best IPL-eligible
+    bowler in the data ranking'

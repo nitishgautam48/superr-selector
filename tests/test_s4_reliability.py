@@ -116,7 +116,12 @@ def test_rr_targets_funnel_alignment_and_final(s4, cfg):
             assert finals["list_basis"] == "RR auction targets"
             assert [x["player_id"] for x in fl] == t.sort_values("target_rank")["player_id"].head(10).tolist()
         else:                                                           # Round 1 brief: pure pressure ranking
-            assert [x["player_id"] for x in fl] == [x["player_id"] for x in finals[f"{role}s_pure_pressure"]]
+            pure = [x["player_id"] for x in finals[f"{role}s_pure_pressure"]]
+            model_kept = [x["player_id"] for x in fl if x.get("provenance") in ("model", "analyst-confirmed")]
+            assert all(p_ in pure for p_ in model_kept)                 # model picks come from the pure ranking
+            assert len(fl) - len(model_kept) == len([o for o in analyst.load_overrides(cfg)
+                                                     if o.get("role") == role and o.get("action") == "pin"
+                                                     and o.get("player_id") not in pure])   # the rest are logged adds
         assert all(x["name"] in set(mp["player_name"]) for x in fl) and len({x["player_id"] for x in fl}) == 10
     assert set(res["needs"]["batting"]) == {"PP", "MID", "DEATH"}
 

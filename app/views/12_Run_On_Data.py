@@ -69,6 +69,9 @@ if f is not None and st.button("Run the model", type="primary", key="up_run"):
         if not all(s["matches_official_pack"] for s in status.values()):
             st.info("Row counts differ from the official pack: results will differ from ours accordingly.",
                     icon=":material/info:")
+        ov_src = D.REPO / "config" / "analyst_overrides.yaml"     # the analyst's logged decisions apply to uploads too
+        if ov_src.exists():
+            shutil.copy2(ov_src, root / "analyst_overrides.yaml")
         cfg = load_config().with_overrides(**D.upload_paths(root))
         if quick_mode:
             cfg = R.quick(cfg)

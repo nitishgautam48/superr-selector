@@ -201,5 +201,33 @@
   "after": "False",
   "reason": "Organisers clarified Round 1: identify who performs best under pressure; not recommending players for RR to retain or pick at auction. Final lists = pure pressure ranking; RR targets kept as context",
   "source": "nitish-request"
+ },
+ {
+  "timestamp": "2026-11-17T14:47:45",
+  "setting": "override.bowler.drop",
+  "after": "2490 rank=-",
+  "reason": "Mohammad Nawaz: Pakistan national, not eligible to play in the IPL (data rank 8 kept for reference)",
+  "source": "nitish"
+ },
+ {
+  "timestamp": "2026-11-17T14:47:45",
+  "setting": "override.bowler.drop",
+  "after": "5979 rank=-",
+  "reason": "Abrar Ahmed: Pakistan national, not eligible to play in the IPL (data rank 9 kept for reference)",
+  "source": "nitish"
+ },
+ {
+  "timestamp": "2026-11-17T14:47:45",
+  "setting": "override.bowler.pin",
+  "after": "3644 rank=8",
+  "reason": "Kuldeep Yadav (India, data rank 11) takes Nawaz's rank-8 slot: Pakistan nationals cannot play in the IPL; slot given to the next-best IPL-eligible bowler in the data ranking",
+  "source": "nitish"
+ },
+ {
+  "timestamp": "2026-11-17T14:47:45",
+  "setting": "override.bowler.pin",
+  "after": "4373 rank=9",
+  "reason": "Mustafizur Rahman (Bangladesh, data rank 12) takes Abrar's rank-9 slot: Pakistan nationals cannot play in the IPL; slot given to the next-best IPL-eligible bowler in the data ranking",
+  "source": "nitish"
  }
 ]

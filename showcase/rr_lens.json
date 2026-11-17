@@ -782,77 +782,72 @@
       }
     },
     {
-      "player_id": 2490,
-      "name": "Mohammad Nawaz",
+      "player_id": 3644,
+      "name": "Kuldeep Yadav",
       "plays_for_rr": false,
       "rr_seasons": null,
-      "ipl_team": null,
+      "ipl_team": "Delhi Capitals",
       "phase=DEATH": {
-        "balls": 15,
-        "econ": 4.8,
-        "wpa_per100": 0.151
+        "balls": 86,
+        "econ": 9.5,
+        "wpa_per100": -0.325
       },
       "phase=MID": {
-        "balls": 168,
-        "econ": 6.6,
-        "wpa_per100": 0.959
-      },
-      "phase=PP": {
-        "balls": 34,
+        "balls": 271,
         "econ": 7.4,
-        "wpa_per100": 0.707
+        "wpa_per100": 0.592
       },
       "situation=chase": {
-        "balls": 185,
-        "econ": 6.7,
-        "wpa_per100": 0.941
+        "balls": 263,
+        "econ": 7.7,
+        "wpa_per100": 0.382
       },
       "situation=set/defend": {
-        "balls": 32,
-        "econ": 5.8,
-        "wpa_per100": 0.418
+        "balls": 94,
+        "econ": 8.4,
+        "wpa_per100": 0.34
       },
       "pace_or_spin=Spin": {
-        "balls": 217,
-        "econ": 6.6,
-        "wpa_per100": 0.864
+        "balls": 357,
+        "econ": 7.9,
+        "wpa_per100": 0.371
       }
     },
     {
-      "player_id": 5979,
-      "name": "Abrar Ahmed",
+      "player_id": 4373,
+      "name": "Mustafizur Rahman",
       "plays_for_rr": false,
       "rr_seasons": null,
-      "ipl_team": null,
+      "ipl_team": "Kolkata Knight Riders",
       "phase=DEATH": {
-        "balls": 21,
-        "econ": 7.1,
-        "wpa_per100": -0.298
+        "balls": 157,
+        "econ": 10.1,
+        "wpa_per100": 0.436
       },
       "phase=MID": {
-        "balls": 76,
-        "econ": 6.1,
-        "wpa_per100": 0.376
+        "balls": 41,
+        "econ": 6.9,
+        "wpa_per100": 1.266
       },
       "phase=PP": {
-        "balls": 41,
-        "econ": 9.4,
-        "wpa_per100": 0.207
+        "balls": 133,
+        "econ": 7.8,
+        "wpa_per100": 0.04
       },
       "situation=chase": {
-        "balls": 111,
-        "econ": 7.0,
-        "wpa_per100": 0.174
+        "balls": 141,
+        "econ": 8.9,
+        "wpa_per100": -0.076
       },
       "situation=set/defend": {
-        "balls": 27,
-        "econ": 8.2,
-        "wpa_per100": 0.425
+        "balls": 190,
+        "econ": 8.7,
+        "wpa_per100": 0.718
       },
-      "pace_or_spin=Spin": {
-        "balls": 138,
-        "econ": 7.2,
-        "wpa_per100": 0.223
+      "pace_or_spin=Pace": {
+        "balls": 331,
+        "econ": 8.8,
+        "wpa_per100": 0.38
       }
     },
     {

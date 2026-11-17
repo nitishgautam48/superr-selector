@@ -425,7 +425,7 @@
       "prs": 93.0,
       "target_rank": null,
       "provenance": "model",
-      "reason": ""
+      "reason": "Mohammad Nawaz: Pakistan national, not eligible to play in the IPL (data rank 8 kept for reference)"
     },
     {
       "rank": 9,
@@ -436,7 +436,7 @@
       "prs": 92.0,
       "target_rank": null,
       "provenance": "model",
-      "reason": ""
+      "reason": "Abrar Ahmed: Pakistan national, not eligible to play in the IPL (data rank 9 kept for reference)"
     },
     {
       "rank": 10,
@@ -537,7 +537,7 @@
       "prs": 93.0,
       "target_rank": null,
       "provenance": "model",
-      "reason": ""
+      "reason": "Mohammad Nawaz: Pakistan national, not eligible to play in the IPL (data rank 8 kept for reference)"
     },
     {
       "rank": 9,
@@ -548,7 +548,7 @@
       "prs": 92.0,
       "target_rank": null,
       "provenance": "model",
-      "reason": ""
+      "reason": "Abrar Ahmed: Pakistan national, not eligible to play in the IPL (data rank 9 kept for reference)"
     },
     {
       "rank": 10,
@@ -642,25 +642,25 @@
     },
     {
       "rank": 8,
-      "player_id": 2490,
-      "name": "Mohammad Nawaz",
-      "display": "Mohammad Nawaz (Pakistan, Australia in Pakistan T20I Series 2026)",
-      "model_rank": 8,
-      "prs": 93.0,
+      "player_id": 3644,
+      "name": "Kuldeep Yadav",
+      "display": "Kuldeep Yadav (India, India in New Zealand T20I Series 2026)",
+      "model_rank": 11,
+      "prs": 90.0,
       "target_rank": null,
-      "provenance": "model",
-      "reason": ""
+      "provenance": "analyst-add",
+      "reason": "Kuldeep Yadav (India, data rank 11) takes Nawaz's rank-8 slot: Pakistan nationals cannot play in the IPL; slot given to the next-best IPL-eligible bowler in the data ranking"
     },
     {
       "rank": 9,
-      "player_id": 5979,
-      "name": "Abrar Ahmed",
-      "display": "Abrar Ahmed (Pakistan, Sri Lanka in Pakistan T20I Series 2026)",
-      "model_rank": 9,
-      "prs": 92.0,
-      "target_rank": null,
-      "provenance": "model",
-      "reason": ""
+      "player_id": 4373,
+      "name": "Mustafizur Rahman",
+      "display": "Mustafizur Rahman (Bangladesh, Bangladesh in Zimbabwe T20I Series 2026)",
+      "model_rank": 12,
+      "prs": 89.0,
+      "target_rank": 8,
+      "provenance": "analyst-add",
+      "reason": "Mustafizur Rahman (Bangladesh, data rank 12) takes Abrar's rank-9 slot: Pakistan nationals cannot play in the IPL; slot given to the next-best IPL-eligible bowler in the data ranking"
     },
     {
       "rank": 10,
@@ -674,6 +674,19 @@
       "reason": ""
     }
   ],
-  "bowlers_changes": [],
+  "bowlers_changes": [
+    {
+      "player_id": 2490,
+      "name": "Mohammad Nawaz",
+      "change": "dropped",
+      "reason": "Mohammad Nawaz: Pakistan national, not eligible to play in the IPL (data rank 8 kept for reference)"
+    },
+    {
+      "player_id": 5979,
+      "name": "Abrar Ahmed",
+      "change": "dropped",
+      "reason": "Abrar Ahmed: Pakistan national, not eligible to play in the IPL (data rank 9 kept for reference)"
+    }
+  ],
   "schema_version": "2.0.0"
 }
