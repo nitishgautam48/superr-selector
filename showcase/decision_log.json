@@ -229,5 +229,12 @@
   "after": "4373 rank=9",
   "reason": "Mustafizur Rahman (Bangladesh, data rank 12) takes Abrar's rank-9 slot: Pakistan nationals cannot play in the IPL; slot given to the next-best IPL-eligible bowler in the data ranking",
   "source": "nitish"
+ },
+ {
+  "timestamp": "2026-11-18T04:53:40",
+  "setting": "expected.context.venue",
+  "after": "False",
+  "reason": "Venue (ground) baseline level tested 18 Nov: back-test 0.328->0.332 bat, 0.321->0.320 bowl; split-half A 0.294->0.275 bat; same 20 players. No gain, left off",
+  "source": "nitish-request"
  }
 ]

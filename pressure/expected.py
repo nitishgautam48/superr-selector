@@ -91,6 +91,8 @@ def context_levels(s: pd.DataFrame, cfg: Any, opp_col: str, strength: pd.Series 
         l4 = l4 + "|pos=" + pos
     l5 = l4 + "|" + s["competition_group"].astype(str) + "-" + s[opp_col].astype(str)
     levels = [l1, l2, l3, l4, l5]
+    if ctx.get("venue") and "venue_id" in s:      # ground effect, shrunk toward the full context above it
+        levels.append(l5 + "|v=" + s["venue_id"].astype(str))
     if ctx.get("opposition_strength") and strength is not None:
         levels.append(l5 + "|" + strength.astype(str))
     if ctx.get("opponent_quality") and opp_quality is not None:

@@ -28,12 +28,18 @@ PAGE_FILES = [("1_Overview.py", "Overview"), ("13_RR_Targets.py", "RR targets"),
               ("7_Weights_Lab.py", "Weights lab"), ("8_My_Decisions.py", "My decisions"),
               ("9_Data_Quality.py", "Data quality"), ("10_Submission_Checklist.py", "Submission checklist"),
               ("12_Run_On_Data.py", "Run on a data pack")]
+PRODUCT_PAGES = [("1_Overview.py", "Overview"), ("3_Rankings.py", "Rankings"), ("4_Player_Profile.py", "Player profile"),
+                 ("5_Compare.py", "Compare"), ("2_Pressure_Lab.py", "Pressure lab"), ("6_Reliability.py", "Reliability"),
+                 ("11_Methodology.py", "Methodology"), ("13_RR_Targets.py", "RR lens"), ("8_My_Decisions.py", "Decisions"),
+                 ("9_Data_Quality.py", "Data quality"), ("7_Weights_Lab.py", "Model weights"), ("12_Run_On_Data.py", "Run on a data pack")]
 
 
 def login_page() -> None:
     with st.container(key="wr_login"):
+        tag = ("Who delivers when the game is on the line? Pressure analytics for IPL and T20I cricket, 2022-26."
+               if D.public_mode() else "Private analysis tool.")
         st.html('<h1 class="wr-h1">RR Pressure Index</h1>'
-                '<div class="wr-caption" style="margin:6px 0 16px">Private analysis tool. Log in to continue.</div>')
+                f'<div class="wr-caption" style="margin:6px 0 16px">{tag} Log in to continue.</div>')
         if not state.app_password():
             st.error("No password is configured. Set APP_PASSWORD in .streamlit/secrets.toml or the environment.",
                      icon=":material/lock:")
@@ -51,19 +57,21 @@ def sidebar(nav_pages) -> None:
     with st.sidebar:
         st.html('<div class="wr-brand"><span class="wr-mark" aria-hidden="true"></span><div>'
                 '<div class="wr-brand-name">RR Pressure Index</div><div class="wr-brand-sub">'
-                + ("Method · upload your data" if D.public_mode() else "Private · SupeRR Selector") + '</div>'
+                + ("Pressure analytics · IPL &amp; T20I" if D.public_mode() else "Private · SupeRR Selector") + '</div>'
                 '</div></div>')
         for p in nav_pages:
             st.page_link(p)
         st.divider()
-        src = ("Your upload" if D.upload_dir() else "Showcase" if D.showcase_mode()
+        src = ("Your upload" if D.upload_dir() else ("Results" if D.public_mode() else "Showcase") if D.showcase_mode()
                else ("Real pack" if D.available() else "No outputs"))
         C._show(f'<div class="wr-side-row"><span>Theme</span>{C.badge_html(MODE.title(), "neutral", "◐")}</div>'
                 f'<div class="wr-caption" style="margin:-2px 0 8px">Switch in ⋮ menu → Settings</div>'
-                f'<div class="wr-side-row"><span>Data</span>{C.badge_html(src, "blue" if src == "Showcase" else ("success" if D.available() else "warning"), "◆")}</div>'
-                + ('<div class="wr-caption" style="margin:4px 0 8px">Read-only · aggregates only</div>' if src == "Showcase" else ""))
+                f'<div class="wr-side-row"><span>Data</span>{C.badge_html(src, "blue" if src in ("Showcase", "Results") else ("success" if D.available() else "warning"), "◆")}</div>'
+                + ('<div class="wr-caption" style="margin:4px 0 8px">IPL 2022-26 + T20Is · 200,999 deliveries</div>' if src == "Results"
+                   else '<div class="wr-caption" style="margin:4px 0 8px">Read-only · aggregates only</div>' if src == "Showcase" else ""))
         with st.container(key="wr_sidebar_footer"):
-            st.html(f'<div class="wr-caption">Last run {C._e(C.fmt_run_at(meta.get("run_at")))} · config '
+            st.html(f'<div class="wr-caption">Updated {C._e(C.fmt_run_at(meta.get("run_at")))}</div>' if D.public_mode() else
+                    f'<div class="wr-caption">Last run {C._e(C.fmt_run_at(meta.get("run_at")))} · config '
                     f'{C._e(str(meta.get("config_hash", "–")))}</div>')
             if st.button("Log out", key="logout"):
                 state.logout()
@@ -82,7 +90,7 @@ if not D.available():   # no outputs yet: upload page (+ methodology, readable b
     st.stop()
 
 HIDDEN_IN_SHOWCASE = {"10_Submission_Checklist.py"}   # private prep (answers, raw mapping) never hosted
-PAGES = [st.Page(f"views/{f}", title=t, default=(i == 0)) for i, (f, t) in enumerate(PAGE_FILES)
+PAGES = [st.Page(f"views/{f}", title=t, default=(i == 0)) for i, (f, t) in enumerate(PRODUCT_PAGES if D.public_mode() else PAGE_FILES)
          if (APP_DIR / "views" / f).exists() and not ((D.showcase_mode() or D.public_mode()) and f in HIDDEN_IN_SHOWCASE)]
 nav = st.navigation(PAGES, position="hidden")
 sidebar(PAGES)

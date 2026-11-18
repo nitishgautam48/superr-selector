@@ -13,9 +13,10 @@ c = D.cfg()
 dq, rep, sep = D.js("data_quality.json"), D.js("wp_model_report.json"), D.js("pressure_separation.json")
 pers, sens, meta = D.js("persistence.json"), D.js("sensitivity.json"), D.js("run_meta.json")
 C.page_header("Methodology", "How the RR Pressure Index is computed - formulas, settings and evidence, read live from "
-              "the current run.", [("System documentation", "neutral")])
-st.info("This page documents what the code does, for transparency and reproducibility. It is not report text: the "
-        "methodology report must be written in your own words.", icon=":material/info:")
+              "the current run.", [] if (D.showcase_mode() or D.public_mode()) else [("System documentation", "neutral")])
+if not (D.showcase_mode() or D.public_mode()):   # reminder for the analyst only; never shown on the hosted app
+    st.info("This page documents what the code does, for transparency and reproducibility. It is not report text: the "
+            "methodology report must be written in your own words.", icon=":material/info:")
 
 
 def g(path, d=None):
@@ -42,9 +43,13 @@ with steps[0]:
            ("Bowler wickets exclude", ", ".join(g("data.bowler_wicket_exclude", []))),
            ("Batter dismissals exclude", ", ".join(g("data.batter_dismissal_exclude", []))),
            ("Excluded matches (no result / abandoned / no balls)", len(dq.get("excluded_matches", [])))])
-    st.markdown("**Team runs per ball (reconstructed - extras' run values are missing from the pack)**")
-    st.latex(r"\text{team\_runs} = \text{bat\_runs} + \mathbb{1}[\text{wide, no-ball, leg-bye, bye, other}] + "
-             r"5\cdot\mathbb{1}[\text{penalty}] + \text{extras\_2\_runs}")
+    if dq.get("extras_version") == "v1_codes":
+        st.markdown("**Team runs per ball (reconstructed - this pack stores extras as type codes, not run values)**")
+        st.latex(r"\text{team\_runs} = \text{bat\_runs} + \mathbb{1}[\text{wide, no-ball, leg-bye, bye, other}] + "
+                 r"5\cdot\mathbb{1}[\text{penalty}] + \text{extras\_2\_runs}")
+    else:
+        st.markdown("**Team runs per ball (the pack records the run value of every extra)**")
+        st.latex(r"\text{team\_runs} = \text{bat\_runs} + \text{extras1\_runs} + \text{extras\_2\_runs}")
     st.markdown("**Winner reconstruction:** a chase that ends before its allotted balls with wickets in hand and "
                 f"within {g('data.chase_early_tolerance_runs')} runs of the target = target reached; otherwise totals decide. "
                 "DLS games use the revised target and balls.")
@@ -180,7 +185,8 @@ with steps[7]:
         st.code(ov.read_text(encoding="utf-8"), language="yaml")
 
 with steps[8]:
-    C.section_header("Report figures", "outputs/public - aggregates only, watermarked, with a space for your reasoning")
+    C.section_header("Report figures", "aggregates only" if (D.showcase_mode() or D.public_mode())
+                     else "outputs/public - aggregates only, watermarked, with a space for your reasoning")
     pngs = sorted(c.path("outputs_public").glob("*.png")) if c.path("outputs_public").exists() else []
     if not pngs:
         C.empty_state("No figures yet - run the pipeline.")

@@ -17,8 +17,9 @@ if not D.cfg().get("rr_target.use_for_final", False):
 if not res:
     C.empty_state("No RR target results yet - run the pipeline.")
     st.stop()
-st.caption("Retentions and releases for 2027 are not in the data pack: add your own research in config/auction_pool.yaml "
-           "(exclude / include with a reason).")
+if not (D.showcase_mode() or D.public_mode()):
+    st.caption("Retentions and releases for 2027 are not in the data pack: add your own research in config/auction_pool.yaml "
+               "(exclude / include with a reason).")
 for e in res.get("availability_errors", []):
     st.warning(e, icon=":material/warning:")
 

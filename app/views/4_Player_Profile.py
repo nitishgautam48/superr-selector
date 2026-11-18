@@ -85,10 +85,9 @@ with C.pair_grid("pp_mid"):
         else:
             C.empty_state("Not eligible, so not bootstrapped.")
 
-C.section_header("Analyst decision", "Your call, logged with your reason. The model list is always kept.")
 if D.showcase_mode():
-    st.info("Decisions are made in the local version; this showcase is read-only.", icon=":material/lock:")
     st.stop()
+C.section_header("Analyst decision", "Your call, logged with your reason. The model list is always kept.")
 with st.form("pp_decide", border=True):
     a1, a2 = st.columns([1, 1])
     action = a1.selectbox("Action", ["pin", "drop", "swap_rank"], key="pp_action",

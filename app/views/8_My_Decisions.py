@@ -34,7 +34,7 @@ if D.showcase_mode():
 C.section_header("Current overrides", "From config/analyst_overrides.yaml")
 ovs = analyst.load_overrides(c)
 if not ovs:
-    C.empty_state("No overrides yet. Use the Analyst decision card on a player's profile.")
+    C.empty_state("No overrides." if (D.showcase_mode() or D.public_mode()) else "No overrides yet. Use the Analyst decision card on a player's profile.")
 else:
     st.dataframe(pd.DataFrame(ovs), hide_index=True, width="stretch")
     with st.form("md_undo"):
@@ -54,5 +54,6 @@ if log.empty:
     C.empty_state("The log is empty.")
 else:
     st.dataframe(log.iloc[::-1], hide_index=True, width="stretch")
-    st.caption(f"{int((log['source'] == 'autopilot').sum())} autopilot defaults to review "
-               "(reason 'autopilot default - review').")
+    if not (D.showcase_mode() or D.public_mode()):
+        st.caption(f"{int((log['source'] == 'autopilot').sum())} autopilot defaults to review "
+                   "(reason 'autopilot default - review').")

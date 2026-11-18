@@ -157,8 +157,9 @@ def public_mode() -> bool:
 
 
 def read_only_note(what: str) -> None:
-    st.info(f"{what} needs ball-by-ball data, which is never hosted. It works in the local version "
-            "(see README); this online showcase holds aggregates only.", icon=":material/lock:")
+    st.info(f"{what}: this uses ball-by-ball data, which is never stored online. To use it, open **Run on a data pack** "
+            "and upload the SupeRR Selector pack: every page then works on your upload. Below are the summary figures.",
+            icon=":material/lock:")
 
 
 def label_tone(label: Any) -> tuple[str, str]:

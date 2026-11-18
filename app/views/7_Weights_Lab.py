@@ -9,11 +9,17 @@ from app import components as C, data as D
 from pressure.decisions import DecisionRefused, log_decision
 
 c = D.cfg()
-C.page_header("Weights lab", "Try other weights and thresholds. Nothing changes until you Save with a reason.")
+C.page_header("Model weights" if D.showcase_mode() else "Weights lab", "The score weights used for the rankings." if D.showcase_mode()
+              else "Try other weights and thresholds. Nothing changes until you Save with a reason.")
 W = c.get("rating.weights")
 if D.showcase_mode():
-    D.read_only_note("The Weights lab (live re-rating)")
-    st.write("Current weights:", W, "· value blend:", c.get("rating.value_blend"))
+    D.read_only_note("Trying other weights live")
+    names = {"A": "A · pressure quality", "Q": "Q · usual level", "C": "C · consistency", "B": "B · clutch gap (reported)"}
+    vb = c.get("rating.value_blend") or {}
+    st.dataframe(pd.DataFrame([{"Component": names.get(k, k), "Weight": f"{float(v):.0%}"} for k, v in W.items()]),
+                 hide_index=True, width="content")
+    st.caption(f"Ball value = {float(vb.get('rae', 0.75)):.0%} runs above expected + {float(vb.get('wpa', 0.25)):.0%} "
+               "win probability added · weights chosen by a back-test on later seasons.")
     st.stop()
 with st.form("wl_form", border=True):
     a, b, cc, q = st.columns(4)

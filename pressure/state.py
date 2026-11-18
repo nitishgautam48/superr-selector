@@ -49,8 +49,9 @@ def build_state(balls: pd.DataFrame, matches: pd.DataFrame, validation: pd.DataF
     b["rrr_minus_crr"] = b["rrr"] - b["crr"]
 
     for c in ("competition_group", "season_year", "stage", "knock_out", "venue_country", "comp_id", "comp_name",
-              "home_team_id", "dls", "tied", "super_over", "no_result", "abandoned", "win_team_id"):
-        b[c] = b["match_id"].map(m[c])
+              "home_team_id", "dls", "tied", "super_over", "no_result", "abandoned", "win_team_id", "venue_id"):
+        if c in m:
+            b[c] = b["match_id"].map(m[c])
     tmap = tiers.set_index(["comp_id", "team_id"])["tier"]
     b["bat_tier"] = [tmap.get((c, t), "ASSOCIATE") for c, t in zip(b["comp_id"], b["batting_team_id"])]
     b["bowl_tier"] = [tmap.get((c, t), "ASSOCIATE") for c, t in zip(b["comp_id"], b["bowling_team_id"])]

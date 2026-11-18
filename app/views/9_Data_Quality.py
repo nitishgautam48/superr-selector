@@ -17,9 +17,14 @@ C.kpi_row([C.kpi_tile_html("Winner reconstructed correctly", f"{v.get('winner_ac
            C.kpi_tile_html("Within 3 runs", f"{v.get('runs_margin_within_3_pct', 0):.0f}%"),
            C.kpi_tile_html("Wicket margins exact", f"{v.get('wickets_margin_exact_pct', 0):.1f}%"),
            C.kpi_tile_html("Excluded matches", f"{dq.get('excluded_match_count', len(dq.get('excluded_matches', [])))}")])
-st.info("Run values of extras are missing from the pack, so team totals, targets and required rates are reconstructed "
-        "(about ±3 runs). Batter runs, balls faced, dismissals and boundaries are exact. Winners are reconstructed "
-        "from the chase structure (legal balls and wickets are exact).", icon=":material/info:")
+if dq.get("extras_version") == "v1_codes":
+    st.info("Run values of extras are missing from this pack, so team totals, targets and required rates are reconstructed "
+            "(about ±3 runs). Batter runs, balls faced, dismissals and boundaries are exact. Winners are reconstructed "
+            "from the chase structure (legal balls and wickets are exact).", icon=":material/info:")
+else:
+    st.info("The pack records the run value of every extra, so team totals, targets and required rates are rebuilt "
+            "exactly from the deliveries; the few remaining margin gaps are DLS-adjusted results. Winners are taken from "
+            "the chase structure (legal balls and wickets are exact).", icon=":material/info:")
 val = D.validation()
 if D.showcase_mode():
     o = dq.get("other_extra", {})
